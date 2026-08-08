@@ -1,0 +1,31 @@
+bundle:
+  name: DAB_Real_Time_Recommendation_System
+
+include:
+  - src/*.yml
+  - resources/jobs/*.yml
+  - resources/pipelines/*.yml
+  - resources/schemas/*.yml
+   
+experimental:
+  skip_name_prefix_for_schema: true
+
+targets:
+  dev:
+    mode: development
+    default: true
+    workspace:
+      host: https://dbc-08b78b0e-2efe.cloud.databricks.com/
+    # permissions:
+    #   - group_name: StreamRec
+    #     level: CAN_MANAGE
+    
+
+  prod:
+    mode: production
+    default: false
+    workspace:
+      host: https://dbc-08b78b0e-2efe.cloud.databricks.com/
+    # permissions:
+    #   - group_name: StreamRec
+    #     level: CAN_RUN
