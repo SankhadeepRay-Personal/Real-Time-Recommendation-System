@@ -1,6 +1,6 @@
 bundle:
   name: DAB_Real_Time_Recommendation_System
-  
+  # engine: direct
 
 include:
   - src/*.yml
