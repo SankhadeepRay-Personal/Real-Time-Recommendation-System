@@ -1,5 +1,0 @@
-resources:
-  catalogs:
-    catalog:
-      name: ${var.catalog}
-      comment: "Catalog for Real Time Recommendation System"
