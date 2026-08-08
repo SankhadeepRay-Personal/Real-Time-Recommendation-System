@@ -1,14 +1,19 @@
-id: fe931a64-5623-4a4c-b3ff-1f778320d4cf
-pipeline_type: WORKSPACE
-name: stream_recommendations_flow
-libraries:
-  - glob:
-      include: /Workspace/Users/surojitmondal2006@gmail.com/RealTime_Recomm/Feature-Real-Time-Recommendation-System/src/stream_recommendations_flow/bronze/**
-schema: bronze
-continuous: false
-development: false
-photon: true
-channel: CURRENT
-catalog: streamrec
-serverless: true
-root_path: /Workspace/Users/surojitmondal2006@gmail.com/RealTime_Recomm/Feature-Real-Time-Recommendation-System/src/stream_recommendations_flow
+resources:
+  pipelines:
+    stream_recommendations_flow:
+      name: stream_recommendations_flow
+      configuration:
+        catalog_name: ${var.catalog}
+      libraries:
+        - glob:
+            include: ../src/stream_recommendations_flow/bronze/**
+      schema: bronze
+      continuous: false
+      development: false
+      photon: true
+      channel: CURRENT
+      catalog: ${var.catalog}
+      serverless: true
+      
+ 
+      root_path: ../src/stream_recommendations_flow
