@@ -1,13 +1,13 @@
 bundle:
   name: DAB_Real_Time_Recommendation_System
-  engine: direct
+  
 
 include:
   - src/*.yml
   - resources/jobs/*.yml
   - resources/pipelines/*.yml
   - resources/schemas/*.yml
-  - resources/catalogs/*.yml
+  
    
 experimental:
   skip_name_prefix_for_schema: true
