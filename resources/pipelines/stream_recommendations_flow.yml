@@ -6,7 +6,7 @@ resources:
         catalog_name: ${var.catalog}
       libraries:
         - glob:
-            include: ../src/stream_recommendations_flow/bronze/**
+            include: ../../src/stream_recommendations_flow/bronze/**
       schema: bronze
       continuous: false
       development: false
@@ -16,4 +16,4 @@ resources:
       serverless: true
       
  
-      root_path: ../src/stream_recommendations_flow
+      root_path: ../../src/stream_recommendations_flow
