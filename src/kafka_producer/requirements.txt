@@ -1,5 +1,0 @@
-confluent-kafka==2.15.0
-faker
-python-dotenv
-certifi
-pandas
