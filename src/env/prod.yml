@@ -1,0 +1,6 @@
+targets:
+  prod:
+    # permissions:
+    #   - group_name: StreamRec
+    #     level: CAN_RUN
+      

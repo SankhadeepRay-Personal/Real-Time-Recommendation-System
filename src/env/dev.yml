@@ -1,0 +1,7 @@
+targets:
+  dev:
+    # permissions:
+    #   - group_name: StreamRec
+    #     level: CAN_MANAGE
+    
+   

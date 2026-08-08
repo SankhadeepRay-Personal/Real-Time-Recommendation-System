@@ -1,0 +1,551 @@
+customerId,firstName,lastName,email,phone,age,gender,city,state,country,registrationDate,customerSegment,preferredCategory,preferredDevice,loyaltyPoints,isActive
+101,Danielle,Stephenson,joannbrown@example.org,(710)524-0416,19,Female,Delhi,Delhi,India,2023-10-10,New,Home & Kitchen,Tablet,839,1
+102,Holly,Moss,randall36@example.net,699-321-4793x3617,23,Female,London,England,UK,2025-01-26,New,Fashion,Mobile,1905,1
+103,Karen,Massey,ffrazier@example.com,803-483-4271x82092,53,Male,Mumbai,Maharashtra,India,2025-12-08,Regular,Grocery,Mobile,3679,1
+104,Christina,Rodriguez,patrick52@example.net,435.664.5624,28,Female,Mumbai,Maharashtra,India,2024-12-28,Regular,Home & Kitchen,Mobile,2757,1
+105,Bradley,Castillo,dannyowens@example.com,+1-938-688-9047x5472,24,Male,New York,New York,USA,2025-11-01,Regular,Sports & Fitness,Mobile,3763,1
+106,Kerry,Smith,adam00@example.net,659.805.0507x8611,23,Female,New York,New York,USA,2025-04-28,Premium,Beauty & Personal Care,Tablet,1575,1
+107,Amber,Holloway,brownaudrey@example.com,+1-445-412-3134,60,Male,Mumbai,Maharashtra,India,2026-01-19,New,Fashion,Mobile,827,1
+108,Carol,Anderson,zreid@example.org,001-971-679-1262x218,58,Female,Chicago,Illinois,USA,2026-01-30,New,Beauty & Personal Care,Mobile,2187,1
+109,Meredith,Morris,waltersamanda@example.com,+1-552-479-9059x66956,56,Female,Delhi,Delhi,India,2026-01-16,Regular,Books,Mobile,3786,1
+110,Steven,Roberts,patriciaglover@example.net,001-215-574-4049,32,Female,London,England,UK,2024-01-31,Premium,Electronics,Mobile,262,1
+111,John,Singh,connor57@example.org,8283048090,35,Male,New York,New York,USA,2024-10-07,VIP,Beauty & Personal Care,Mobile,4089,1
+112,Walter,Molina,iporter@example.com,327.697.0286x2512,27,Male,Chicago,Illinois,USA,2025-06-07,New,Sports & Fitness,Tablet,4788,1
+113,Danielle,Stout,derek03@example.net,8449603561,43,Male,Toronto,Ontario,Canada,2025-03-24,VIP,Home & Kitchen,Tablet,4042,1
+114,Lauren,Stokes,obuck@example.net,764.784.0842x727,25,Male,Mumbai,Maharashtra,India,2024-05-24,New,Grocery,Tablet,520,1
+115,Sylvia,Cuevas,angelareynolds@example.org,001-742-268-4162x5717,47,Female,Toronto,Ontario,Canada,2026-04-25,VIP,Electronics,Tablet,938,1
+116,Kayla,Bell,amanda63@example.org,+1-691-254-8041x590,35,Female,London,England,UK,2026-05-28,Regular,Sports & Fitness,Desktop,1295,1
+117,Cheryl,Foster,gjohnson@example.net,453-260-9428,50,Female,Chennai,Tamil Nadu,India,2025-12-28,Regular,Fashion,Tablet,2444,1
+118,Eric,Hutchinson,michael86@example.org,(303)656-8637x515,56,Male,London,England,UK,2025-01-21,Regular,Home & Kitchen,Tablet,4344,0
+119,Jared,Williams,chloewilson@example.net,2234825525,38,Female,Toronto,Ontario,Canada,2026-07-09,New,Beauty & Personal Care,Desktop,1961,1
+120,Brenda,Lopez,iclark@example.org,212.802.7452x688,23,Male,Toronto,Ontario,Canada,2024-11-20,Regular,Fashion,Tablet,1030,1
+121,Christy,Hendrix,smack@example.net,(357)976-8402x709,53,Male,Chicago,Illinois,USA,2023-09-07,Regular,Grocery,Mobile,4417,1
+122,Roger,Galvan,leewise@example.net,(598)704-8056x4358,63,Male,Hyderabad,Telangana,India,2024-01-17,VIP,Beauty & Personal Care,Desktop,4239,1
+123,Anna,Harris,jamessmith@example.com,(788)688-9535,32,Male,Hyderabad,Telangana,India,2026-04-11,New,Books,Tablet,1804,1
+124,Lisa,Johnson,amandaryan@example.com,915-964-6913x90819,32,Male,Mumbai,Maharashtra,India,2024-11-02,New,Beauty & Personal Care,Mobile,4211,1
+125,Danielle,Ball,crawfordjames@example.org,745.994.2379x28189,31,Female,Chicago,Illinois,USA,2024-06-07,Premium,Toys & Games,Mobile,3874,1
+126,Stephanie,Ramirez,zlang@example.org,001-753-740-3004x14222,24,Male,Hyderabad,Telangana,India,2024-06-29,Regular,Grocery,Desktop,3825,1
+127,Becky,Turner,zmills@example.com,671-965-7606x9415,61,Female,Mumbai,Maharashtra,India,2024-10-27,Regular,Electronics,Desktop,2779,1
+128,Brandon,Lee,cmitchell@example.com,(449)659-4950x80005,33,Male,Delhi,Delhi,India,2024-02-26,Regular,Home & Kitchen,Desktop,1503,1
+129,Mackenzie,Swanson,castillomichael@example.net,510.896.6372x15696,22,Male,Hyderabad,Telangana,India,2025-07-21,Premium,Fashion,Mobile,4428,1
+130,Raymond,Leblanc,nancy60@example.org,670-449-9656,33,Male,Delhi,Delhi,India,2025-11-06,Regular,Books,Desktop,480,1
+131,Amy,Jackson,wrightjaime@example.org,001-457-828-1624x296,42,Male,Mumbai,Maharashtra,India,2025-04-11,Premium,Toys & Games,Desktop,3465,1
+132,Amber,Short,umorris@example.org,(999)726-8489,60,Female,London,England,UK,2024-01-28,New,Sports & Fitness,Mobile,479,1
+133,Robin,Ortiz,chiggins@example.com,717-794-8136,21,Female,London,England,UK,2025-06-28,New,Toys & Games,Tablet,4350,1
+134,Justin,Walsh,daniel52@example.org,(791)782-2581,23,Female,London,England,UK,2024-03-07,New,Fashion,Tablet,1926,1
+135,Stephanie,Le,htucker@example.org,001-536-813-0249x6069,33,Female,Toronto,Ontario,Canada,2025-03-13,New,Fashion,Desktop,4781,1
+136,Megan,Reed,warrennathan@example.org,323.595.6006x550,34,Male,Pune,Maharashtra,India,2026-06-18,Premium,Books,Desktop,3242,1
+137,Shane,Walters,paula55@example.org,(526)913-4366,47,Male,Chennai,Tamil Nadu,India,2024-09-13,Premium,Fashion,Mobile,3754,1
+138,Austin,Grant,angelarichardson@example.com,774-312-4284x490,24,Male,Toronto,Ontario,Canada,2023-10-17,New,Sports & Fitness,Mobile,2859,1
+139,Oscar,Patel,ocraig@example.net,242.479.6906,41,Male,Hyderabad,Telangana,India,2026-07-04,Regular,Sports & Fitness,Tablet,4333,1
+140,Mary,Fischer,maria11@example.com,+1-662-576-2228x3008,37,Other,London,England,UK,2026-05-25,New,Home & Kitchen,Desktop,945,1
+141,Kevin,Young,mwilliams@example.org,001-684-689-9871x71555,27,Male,London,England,UK,2025-04-07,Regular,Beauty & Personal Care,Mobile,2162,1
+142,Lorraine,Morris,barkerwilliam@example.com,554-298-8071x9280,21,Male,Chennai,Tamil Nadu,India,2026-01-09,Regular,Sports & Fitness,Mobile,29,1
+143,Joseph,Wyatt,ballardjoseph@example.org,3947064993,58,Other,Bengaluru,Karnataka,India,2023-10-05,New,Toys & Games,Tablet,3503,1
+144,Heather,Grimes,craig17@example.org,382-755-9794x3103,22,Other,Delhi,Delhi,India,2024-12-12,Regular,Home & Kitchen,Tablet,295,1
+145,Jacob,Wilson,walshandrew@example.com,001-738-529-8749x826,53,Male,Toronto,Ontario,Canada,2025-02-20,New,Sports & Fitness,Desktop,326,1
+146,Tina,Jones,jamesdavies@example.com,+1-865-555-8498,61,Male,Hyderabad,Telangana,India,2024-09-16,New,Grocery,Tablet,1266,0
+147,Dale,Brown,branchmarc@example.com,(896)822-4314x78192,28,Other,Hyderabad,Telangana,India,2026-07-22,Premium,Grocery,Mobile,1469,1
+148,Holly,Sanders,zochoa@example.com,001-555-636-5360x72335,44,Female,Pune,Maharashtra,India,2024-06-09,Premium,Books,Desktop,1304,1
+149,Dawn,Chavez,saustin@example.net,3346588076,42,Female,Delhi,Delhi,India,2026-06-07,Premium,Books,Mobile,3770,1
+150,Larry,Brown,taylorlance@example.org,7723497338,32,Male,Hyderabad,Telangana,India,2025-10-11,New,Beauty & Personal Care,Desktop,568,0
+151,William,Thompson,kimberly76@example.com,538.383.9676x118,40,Female,Chennai,Tamil Nadu,India,2025-06-11,Regular,Beauty & Personal Care,Mobile,944,1
+152,Kyle,Carr,orozcowilliam@example.com,001-764-404-0984,29,Female,Chennai,Tamil Nadu,India,2024-10-02,VIP,Electronics,Mobile,4887,1
+153,Katherine,Green,danielsdiane@example.org,001-263-744-9168x5087,45,Female,Pune,Maharashtra,India,2026-05-09,Regular,Grocery,Tablet,1557,1
+154,Jorge,Clark,marcmoore@example.net,+1-812-987-2930x17780,18,Female,New York,New York,USA,2025-04-18,Premium,Books,Desktop,3533,1
+155,Hector,Turner,bianca74@example.net,554.963.5614x1551,57,Male,Pune,Maharashtra,India,2025-10-02,Premium,Sports & Fitness,Tablet,2533,1
+156,Richard,Hernandez,emartinez@example.com,649.784.9946x6602,43,Female,Pune,Maharashtra,India,2026-04-17,Regular,Books,Desktop,3105,1
+157,Jacob,Mccoy,baileyjennifer@example.net,8354865481,57,Female,Bengaluru,Karnataka,India,2024-06-02,Regular,Electronics,Desktop,2350,1
+158,David,Martinez,wilsontiffany@example.com,430.548.7366,56,Female,Toronto,Ontario,Canada,2024-09-22,Regular,Toys & Games,Tablet,1750,1
+159,Jennifer,Shelton,calebpham@example.net,581.560.4901x9525,60,Male,Bengaluru,Karnataka,India,2025-04-03,Regular,Beauty & Personal Care,Mobile,1924,1
+160,Marc,Jones,nielsenkimberly@example.net,001-504-888-5983x23169,30,Male,Hyderabad,Telangana,India,2025-06-10,New,Toys & Games,Tablet,596,1
+161,Matthew,Vargas,sarahwilson@example.net,001-558-409-5601,30,Female,Toronto,Ontario,Canada,2024-07-16,Regular,Grocery,Mobile,1208,1
+162,Angela,Coleman,raven51@example.org,626-719-5868,24,Female,Mumbai,Maharashtra,India,2023-10-28,New,Toys & Games,Mobile,4566,1
+163,Jerry,Rogers,smithruben@example.net,976-869-7363x885,47,Male,Delhi,Delhi,India,2026-05-29,Regular,Beauty & Personal Care,Desktop,4135,1
+164,Thomas,Ford,keithmcfarland@example.net,886.782.1425,46,Female,London,England,UK,2026-04-18,Premium,Toys & Games,Desktop,2123,1
+165,Jessica,Sullivan,christopher95@example.net,5988618104,51,Female,Chennai,Tamil Nadu,India,2026-03-06,New,Toys & Games,Mobile,2340,1
+166,Patrick,Marsh,pittmanmichael@example.org,495-723-8573x35342,38,Female,Pune,Maharashtra,India,2024-08-04,New,Home & Kitchen,Mobile,3137,1
+167,Kelsey,Taylor,john76@example.com,482.450.1276,22,Male,Hyderabad,Telangana,India,2024-06-18,Regular,Toys & Games,Desktop,510,1
+168,Lori,Richardson,omoore@example.org,+1-979-836-3259,42,Other,New York,New York,USA,2023-09-10,Regular,Electronics,Tablet,3116,1
+169,Anthony,Mason,danderson@example.net,857-810-6193,37,Female,Pune,Maharashtra,India,2026-01-04,Premium,Grocery,Tablet,4473,1
+170,Rachel,Blair,ncohen@example.org,(200)383-7354x408,49,Male,Hyderabad,Telangana,India,2024-09-10,Regular,Electronics,Desktop,2753,1
+171,Tony,Anderson,kmitchell@example.com,001-234-324-6929x00999,64,Male,New York,New York,USA,2024-10-08,Regular,Home & Kitchen,Tablet,4375,1
+172,Charles,Valencia,lindasnyder@example.org,001-767-403-5210x8904,55,Female,New York,New York,USA,2024-02-12,New,Grocery,Mobile,3782,1
+173,Pamela,Alexander,carlsonjohn@example.org,+1-315-872-7149x3103,42,Male,Chennai,Tamil Nadu,India,2024-07-03,Regular,Beauty & Personal Care,Desktop,2279,1
+174,Kyle,Parker,dylan25@example.org,001-954-240-9316x050,34,Female,New York,New York,USA,2024-05-05,Regular,Electronics,Desktop,1836,1
+175,Jennifer,Jones,hamiltonroger@example.com,(835)916-2469,19,Other,Mumbai,Maharashtra,India,2025-08-19,New,Electronics,Tablet,1248,1
+176,Michelle,Mata,shannon23@example.net,301-526-4528x1163,60,Male,Chicago,Illinois,USA,2023-09-07,VIP,Toys & Games,Tablet,2099,1
+177,Daniel,Butler,susan37@example.org,(779)400-0412x95036,56,Female,Bengaluru,Karnataka,India,2026-02-01,Premium,Fashion,Mobile,2548,1
+178,Cody,Anderson,cynthiasalas@example.com,588-671-3045x88110,37,Female,Mumbai,Maharashtra,India,2024-02-12,VIP,Grocery,Desktop,1624,1
+179,Laurie,Castillo,floresjordan@example.org,3956323657,24,Female,Hyderabad,Telangana,India,2024-12-13,Regular,Fashion,Tablet,336,1
+180,Caroline,Martinez,ortegaanthony@example.com,(278)588-5483x33928,60,Male,New York,New York,USA,2026-05-22,Regular,Beauty & Personal Care,Mobile,3441,1
+181,Erica,Kelly,melissa08@example.org,729.685.8420x37814,45,Other,Delhi,Delhi,India,2025-01-02,Regular,Toys & Games,Tablet,1253,1
+182,Alexis,Davis,hawkinserica@example.net,210-565-8207x767,59,Male,London,England,UK,2026-03-26,Premium,Toys & Games,Desktop,3568,1
+183,Ryan,Davis,steelestephen@example.com,841.238.5503,35,Male,Toronto,Ontario,Canada,2024-10-13,New,Fashion,Desktop,3692,1
+184,Gary,Taylor,jason84@example.org,826-260-8658x91517,54,Female,Chicago,Illinois,USA,2023-11-15,Regular,Electronics,Desktop,2662,1
+185,Natalie,Miles,diane61@example.org,639.594.4092x6361,40,Female,Hyderabad,Telangana,India,2025-08-27,Regular,Sports & Fitness,Tablet,83,1
+186,James,Hill,amymartin@example.org,+1-481-695-7334x8921,23,Male,Hyderabad,Telangana,India,2025-07-01,Regular,Books,Tablet,3900,1
+187,Clinton,Young,drew47@example.com,4684721324,46,Female,Chicago,Illinois,USA,2024-01-14,New,Books,Desktop,1993,1
+188,Krystal,Kaufman,fbutler@example.net,656-363-8030,41,Female,Toronto,Ontario,Canada,2025-07-04,Regular,Grocery,Tablet,4508,1
+189,Austin,Simpson,victoriadavenport@example.net,(496)876-3305x44614,35,Male,Chicago,Illinois,USA,2025-08-29,New,Books,Desktop,979,1
+190,James,Evans,michelle35@example.net,325-550-5332,30,Male,Bengaluru,Karnataka,India,2026-04-14,Regular,Sports & Fitness,Mobile,1590,1
+191,Kristine,Kim,sarahhensley@example.net,+1-651-887-9582x1512,29,Male,Pune,Maharashtra,India,2024-11-09,Premium,Home & Kitchen,Desktop,372,0
+192,Eric,Cook,samantha07@example.net,+1-586-476-8972x9133,36,Female,London,England,UK,2024-03-31,New,Toys & Games,Mobile,100,1
+193,Jacob,Turner,williamglenn@example.org,001-222-725-9504x89614,48,Male,Chicago,Illinois,USA,2025-03-01,New,Electronics,Desktop,3913,1
+194,Julia,Torres,taylor94@example.com,918.634.3253x890,43,Female,Delhi,Delhi,India,2024-03-01,Regular,Electronics,Mobile,1222,1
+195,Austin,Wright,frenchtracy@example.com,(240)734-2287,23,Other,Chennai,Tamil Nadu,India,2024-01-16,New,Grocery,Tablet,4883,1
+196,Lawrence,Hopkins,btran@example.com,652-605-2288x23712,51,Male,Hyderabad,Telangana,India,2023-09-27,VIP,Sports & Fitness,Tablet,3512,1
+197,Francisco,Fowler,karl66@example.net,001-312-297-6911x40197,21,Female,Toronto,Ontario,Canada,2024-07-15,Premium,Books,Tablet,1728,1
+198,Christian,Martinez,shawn06@example.net,(474)909-3110x1561,28,Male,Delhi,Delhi,India,2024-04-02,Regular,Home & Kitchen,Mobile,3346,1
+199,Patricia,Pitts,davischarles@example.com,001-676-967-0553x4823,48,Male,Toronto,Ontario,Canada,2025-11-19,New,Sports & Fitness,Tablet,3719,1
+200,Richard,Nguyen,jkidd@example.net,810.305.2766x69572,34,Female,Hyderabad,Telangana,India,2025-01-03,Regular,Books,Desktop,940,1
+201,William,Stewart,garzamichael@example.com,(320)357-5366,35,Female,Bengaluru,Karnataka,India,2026-01-31,New,Home & Kitchen,Desktop,4874,1
+202,Alexandria,Cochran,smcdonald@example.org,+1-652-336-6401x97843,36,Male,Toronto,Ontario,Canada,2023-12-07,Regular,Sports & Fitness,Tablet,3297,0
+203,Kari,Nguyen,gonzalezlindsey@example.net,343.295.3969x1290,52,Female,London,England,UK,2026-06-21,New,Electronics,Desktop,2640,1
+204,Robert,Vazquez,matthewsalejandro@example.com,001-314-570-7556,23,Male,Mumbai,Maharashtra,India,2024-11-02,Regular,Electronics,Tablet,2207,1
+205,Anita,Booth,lreeves@example.org,(350)921-9266,48,Female,Bengaluru,Karnataka,India,2026-06-13,Regular,Sports & Fitness,Mobile,4795,1
+206,Richard,Robbins,paullewis@example.com,(222)359-9678,23,Female,Chicago,Illinois,USA,2024-02-12,Regular,Beauty & Personal Care,Tablet,856,1
+207,Andrew,Brown,hollysmith@example.net,(874)835-9811,44,Female,Pune,Maharashtra,India,2024-01-16,New,Grocery,Tablet,300,1
+208,Pamela,Flores,brownthomas@example.net,001-289-643-5406x7036,34,Male,Pune,Maharashtra,India,2025-10-09,VIP,Grocery,Tablet,9,1
+209,Alan,Mcdonald,bdavis@example.net,+1-435-786-6655x163,47,Male,London,England,UK,2026-03-10,New,Beauty & Personal Care,Tablet,4083,1
+210,Ashley,Richards,kelleymatthew@example.org,+1-630-911-2349x0695,31,Male,Mumbai,Maharashtra,India,2025-11-11,New,Sports & Fitness,Desktop,3970,1
+211,Leah,Carrillo,hannahdiaz@example.com,(730)959-9989x541,33,Female,Toronto,Ontario,Canada,2024-10-17,Regular,Electronics,Tablet,3342,1
+212,Adam,Armstrong,qparsons@example.net,363.341.4832x227,47,Other,Delhi,Delhi,India,2026-07-25,Regular,Home & Kitchen,Desktop,2390,1
+213,Hannah,Warren,tony48@example.org,868-524-1260x891,44,Female,Chennai,Tamil Nadu,India,2023-10-10,VIP,Books,Desktop,4515,1
+214,Susan,Carson,brucemiller@example.org,(225)277-3929x8306,56,Female,Hyderabad,Telangana,India,2024-02-24,Premium,Fashion,Desktop,3399,1
+215,Ashley,Butler,riosmark@example.com,+1-328-537-3168,35,Female,London,England,UK,2024-05-21,New,Sports & Fitness,Tablet,4750,0
+216,Christopher,Johnson,phillipscraig@example.org,+1-935-772-8039,27,Male,Chicago,Illinois,USA,2024-04-04,Regular,Beauty & Personal Care,Tablet,4451,1
+217,Victoria,Cruz,warnermarcus@example.net,(803)655-9240,30,Other,Pune,Maharashtra,India,2024-04-22,New,Grocery,Mobile,3365,1
+218,Justin,Hall,ramirezjennifer@example.net,375-550-2876,63,Other,Chicago,Illinois,USA,2026-07-25,Regular,Home & Kitchen,Desktop,303,1
+219,Mark,Lawrence,lauren90@example.com,2522077288,39,Female,Toronto,Ontario,Canada,2024-02-13,Premium,Toys & Games,Mobile,4308,0
+220,Jay,Kelly,randy35@example.com,+1-451-436-4491x395,64,Male,Mumbai,Maharashtra,India,2025-07-28,Premium,Home & Kitchen,Mobile,3846,1
+221,Bailey,Townsend,whitewilliam@example.com,+1-488-716-7770,39,Female,Chennai,Tamil Nadu,India,2025-01-31,Regular,Fashion,Desktop,4371,1
+222,Patricia,Butler,pamela55@example.org,850-477-6421,58,Female,Pune,Maharashtra,India,2024-12-06,Premium,Electronics,Tablet,560,1
+223,Bryan,James,pamelatanner@example.org,972-729-8190x77483,32,Female,Chennai,Tamil Nadu,India,2024-10-18,Regular,Fashion,Tablet,823,1
+224,Karl,Boyd,gordon51@example.org,001-504-228-4911,19,Male,Chennai,Tamil Nadu,India,2025-03-20,Premium,Sports & Fitness,Desktop,3070,1
+225,Todd,Kelly,janet18@example.org,+1-234-531-0379,51,Male,Hyderabad,Telangana,India,2024-09-24,Regular,Home & Kitchen,Mobile,1434,1
+226,Mark,Harvey,william96@example.net,6018289991,57,Female,New York,New York,USA,2024-03-30,Regular,Home & Kitchen,Mobile,3777,1
+227,Gabrielle,Marshall,zacharyfrazier@example.org,(684)814-6646,34,Female,Chicago,Illinois,USA,2025-09-16,Premium,Toys & Games,Desktop,4477,1
+228,Becky,Payne,alexandria35@example.net,5365182441,40,Other,Chicago,Illinois,USA,2025-12-30,New,Grocery,Tablet,2048,1
+229,Sandra,Russo,perkinsrose@example.com,(931)588-8001,30,Other,Chennai,Tamil Nadu,India,2024-04-12,Premium,Fashion,Mobile,3124,1
+230,Aaron,Collins,liurobert@example.org,+1-803-829-6438x2948,36,Other,Toronto,Ontario,Canada,2025-02-04,New,Grocery,Desktop,66,1
+231,Adam,Ortiz,smithwilliam@example.net,397.924.6580,56,Female,Mumbai,Maharashtra,India,2023-11-18,Premium,Sports & Fitness,Mobile,4973,1
+232,Travis,Roberts,angelmays@example.net,(354)578-1097x20479,58,Male,Hyderabad,Telangana,India,2026-02-11,New,Home & Kitchen,Tablet,795,0
+233,Barbara,Shaffer,rebecca71@example.org,845-303-1432x6422,37,Female,Mumbai,Maharashtra,India,2025-08-27,New,Beauty & Personal Care,Tablet,1076,1
+234,Abigail,Smith,xcooke@example.org,(520)605-0081x105,38,Female,Chennai,Tamil Nadu,India,2025-03-10,New,Home & Kitchen,Tablet,2997,1
+235,Michael,Hall,fmay@example.net,4032566962,28,Male,Chennai,Tamil Nadu,India,2025-10-04,Premium,Toys & Games,Desktop,2774,1
+236,Craig,Munoz,thomasdeanna@example.org,+1-821-823-5249x21289,22,Male,Chicago,Illinois,USA,2023-09-20,VIP,Grocery,Tablet,2996,1
+237,Dana,Phillips,amber50@example.com,209.591.8598,18,Male,New York,New York,USA,2024-01-26,New,Beauty & Personal Care,Tablet,2147,1
+238,Tracy,Taylor,jennifergregory@example.org,001-983-763-1596x999,24,Female,Pune,Maharashtra,India,2025-07-17,Regular,Beauty & Personal Care,Tablet,1813,1
+239,John,Bowman,robertpayne@example.org,001-252-387-1085x8792,62,Male,Chicago,Illinois,USA,2025-02-05,Regular,Home & Kitchen,Mobile,304,1
+240,Michael,Gonzalez,lisaewing@example.net,6176011326,25,Male,Chicago,Illinois,USA,2026-01-29,Premium,Home & Kitchen,Desktop,3716,1
+241,Daniel,Thompson,scott30@example.net,(773)643-9028,44,Female,London,England,UK,2026-03-16,Premium,Grocery,Tablet,811,1
+242,Duane,Medina,christinemaldonado@example.net,001-425-581-0981x5851,44,Other,Toronto,Ontario,Canada,2024-12-18,New,Beauty & Personal Care,Mobile,3632,1
+243,Gary,Ortiz,greendeborah@example.com,(961)804-3450,41,Male,Hyderabad,Telangana,India,2025-03-02,Regular,Beauty & Personal Care,Mobile,3261,1
+244,Karen,Houston,gonzalesjoshua@example.com,639-521-1623,47,Male,Delhi,Delhi,India,2025-05-11,New,Electronics,Mobile,2732,1
+245,John,Fernandez,dana75@example.net,(569)207-7903x711,54,Male,Bengaluru,Karnataka,India,2024-06-20,Premium,Books,Tablet,1769,1
+246,Deborah,Perkins,ricky23@example.com,001-517-950-8908,39,Female,Hyderabad,Telangana,India,2024-01-03,Premium,Electronics,Desktop,1185,0
+247,Dawn,Rush,gellis@example.net,668.623.4477,34,Female,London,England,UK,2025-07-05,New,Electronics,Mobile,121,1
+248,Jeffrey,Weeks,cameron59@example.net,001-688-991-7155x588,55,Male,Hyderabad,Telangana,India,2024-12-31,New,Electronics,Mobile,3448,1
+249,Ryan,Molina,fitzgeraldkristie@example.com,+1-350-442-1133x6605,48,Male,Delhi,Delhi,India,2024-11-14,Regular,Fashion,Desktop,4127,1
+250,David,Stephens,boydmary@example.com,907.847.5028,20,Female,Toronto,Ontario,Canada,2025-05-10,VIP,Sports & Fitness,Desktop,255,1
+251,Francisco,Jenkins,tayloramber@example.com,+1-370-727-9926x675,43,Male,Chicago,Illinois,USA,2024-04-25,New,Toys & Games,Mobile,661,1
+252,John,Wells,amoore@example.net,282.240.4417x69723,22,Male,Bengaluru,Karnataka,India,2023-08-27,Regular,Beauty & Personal Care,Desktop,4893,1
+253,Sarah,Price,erichards@example.net,001-672-201-2483,50,Female,Chicago,Illinois,USA,2025-07-23,New,Fashion,Tablet,4516,1
+254,Xavier,Barnes,hrios@example.org,4294080477,45,Female,Hyderabad,Telangana,India,2026-05-19,New,Beauty & Personal Care,Desktop,3266,1
+255,Kristen,Smith,lindataylor@example.com,+1-295-200-1221x808,38,Male,Delhi,Delhi,India,2024-07-07,Regular,Beauty & Personal Care,Mobile,3885,1
+256,Mark,Brooks,sandra54@example.net,608.892.4101,23,Male,Delhi,Delhi,India,2025-05-26,Premium,Beauty & Personal Care,Mobile,4557,1
+257,Gabriel,Lewis,kennethboyd@example.net,279-233-3711,53,Male,London,England,UK,2024-04-15,New,Beauty & Personal Care,Tablet,3464,1
+258,Tyrone,Martinez,michelle20@example.com,378.809.9211x8465,36,Female,Mumbai,Maharashtra,India,2025-11-11,Regular,Books,Mobile,3950,1
+259,Michael,Roth,xcook@example.org,+1-229-280-5859x1267,40,Female,Delhi,Delhi,India,2024-11-23,Regular,Sports & Fitness,Tablet,1852,1
+260,Connor,Garcia,kristy60@example.org,721.920.2167,57,Female,London,England,UK,2026-06-10,Regular,Electronics,Tablet,2190,1
+261,Ashley,Carter,gcrane@example.org,9795729652,62,Female,Chennai,Tamil Nadu,India,2024-07-20,VIP,Beauty & Personal Care,Mobile,1486,1
+262,Daniel,Bishop,gwilson@example.net,6284870256,60,Male,Toronto,Ontario,Canada,2026-04-02,New,Electronics,Mobile,4345,1
+263,Susan,Hudson,yhodge@example.org,827-281-8796x30435,47,Male,New York,New York,USA,2026-07-07,Regular,Beauty & Personal Care,Tablet,4884,1
+264,Emily,Lee,rittercathy@example.org,8093409933,27,Male,Mumbai,Maharashtra,India,2025-10-04,Regular,Fashion,Desktop,3629,1
+265,Michael,Jimenez,ronaldjohnston@example.net,001-300-361-6517,56,Male,Chicago,Illinois,USA,2024-07-02,New,Fashion,Desktop,3521,1
+266,Natalie,James,handerson@example.org,(220)488-3833,49,Female,Toronto,Ontario,Canada,2025-06-17,Regular,Books,Desktop,4909,1
+267,Scott,Adams,kathryn05@example.com,+1-332-730-7006x37631,37,Other,Hyderabad,Telangana,India,2025-08-16,Premium,Sports & Fitness,Desktop,2687,1
+268,Laura,Holder,xwillis@example.com,525.936.4646,65,Male,Chicago,Illinois,USA,2023-08-08,New,Books,Tablet,4577,1
+269,Daniel,Williams,cowanmichelle@example.com,369-395-3331x3403,22,Male,Pune,Maharashtra,India,2024-06-05,Premium,Grocery,Mobile,3766,0
+270,Colin,Johnson,ajohnson@example.com,(556)833-9053x416,54,Male,Pune,Maharashtra,India,2026-05-07,Regular,Grocery,Desktop,943,1
+271,Jennifer,Mcguire,udavis@example.com,971.526.6097x9789,28,Female,Pune,Maharashtra,India,2025-07-31,Regular,Beauty & Personal Care,Mobile,3577,1
+272,Sarah,Griffin,amber08@example.net,001-271-586-6046x234,45,Female,Hyderabad,Telangana,India,2026-04-25,Regular,Grocery,Desktop,2781,1
+273,Kathleen,Ali,tiffany26@example.org,(933)395-0942x77084,22,Female,Bengaluru,Karnataka,India,2024-09-09,New,Books,Desktop,2876,1
+274,Marissa,Melton,plindsey@example.net,(590)840-5113,33,Male,Bengaluru,Karnataka,India,2025-12-02,New,Home & Kitchen,Tablet,1252,1
+275,Joseph,Russell,uross@example.org,9558510216,29,Other,Delhi,Delhi,India,2024-01-05,Regular,Toys & Games,Tablet,4747,1
+276,Scott,Perez,jkennedy@example.net,001-891-271-4847,59,Female,Toronto,Ontario,Canada,2025-10-15,Regular,Beauty & Personal Care,Mobile,3602,1
+277,Walter,Rodriguez,ricardo42@example.net,434.292.4699x1619,58,Male,Chicago,Illinois,USA,2024-11-25,New,Electronics,Desktop,4156,1
+278,Ralph,Mack,michelle51@example.org,819.968.5790,46,Male,Chicago,Illinois,USA,2025-07-09,Regular,Sports & Fitness,Mobile,739,1
+279,Phillip,Mullen,richard53@example.net,532.206.4447x326,42,Female,London,England,UK,2025-06-26,Regular,Electronics,Desktop,4683,1
+280,Thomas,Walker,mhammond@example.org,001-627-541-6470x613,56,Female,Pune,Maharashtra,India,2024-07-27,New,Electronics,Desktop,847,1
+281,Deanna,Lewis,julie20@example.org,423-839-4559x6574,63,Male,Pune,Maharashtra,India,2026-05-11,Regular,Electronics,Mobile,3586,0
+282,Sarah,Green,wallacechristopher@example.net,001-419-367-9009x592,51,Female,London,England,UK,2025-07-03,Regular,Sports & Fitness,Desktop,3348,1
+283,Christopher,Davis,powellwilliam@example.com,(324)912-7630x4015,21,Female,Toronto,Ontario,Canada,2024-06-11,Regular,Fashion,Desktop,774,1
+284,Steven,Deleon,steven83@example.org,205-289-9263,36,Male,New York,New York,USA,2024-08-12,Premium,Home & Kitchen,Desktop,667,1
+285,Douglas,Cline,zachary99@example.com,8964389159,40,Male,Bengaluru,Karnataka,India,2024-12-20,Regular,Grocery,Mobile,4874,1
+286,Michelle,Smith,nicholsmonica@example.com,8625650358,37,Female,Delhi,Delhi,India,2023-11-25,Regular,Beauty & Personal Care,Mobile,4312,1
+287,David,Mclean,meverett@example.com,329.356.1960,50,Male,New York,New York,USA,2024-02-03,Regular,Home & Kitchen,Mobile,2799,0
+288,Nicole,Nash,wlozano@example.net,699-555-3407x31171,30,Male,Chicago,Illinois,USA,2025-11-09,New,Fashion,Desktop,828,1
+289,Matthew,Barker,danielayala@example.net,749.963.1890x29274,65,Female,London,England,UK,2026-02-20,New,Beauty & Personal Care,Tablet,1073,1
+290,Justin,Morris,kjohnson@example.org,760.309.4063x69181,28,Male,Bengaluru,Karnataka,India,2025-09-11,Regular,Home & Kitchen,Tablet,3585,1
+291,Nicole,Sellers,joshua84@example.net,001-689-854-4636x19242,61,Female,Pune,Maharashtra,India,2025-04-25,VIP,Sports & Fitness,Tablet,3677,1
+292,John,Walker,kristyrodriguez@example.net,841.590.8643,37,Other,Hyderabad,Telangana,India,2024-04-05,Premium,Books,Desktop,4672,0
+293,Ryan,Singh,brownmichael@example.net,001-722-343-1635x116,36,Female,Chicago,Illinois,USA,2024-08-23,Regular,Grocery,Mobile,1635,1
+294,Alison,Ortiz,jaime36@example.net,001-248-844-9856x46928,34,Male,Bengaluru,Karnataka,India,2023-11-21,Regular,Beauty & Personal Care,Tablet,840,1
+295,Jeremy,Murphy,kylecasey@example.com,001-391-654-5048x9044,25,Male,London,England,UK,2024-01-27,Premium,Sports & Fitness,Desktop,4205,1
+296,Mark,Benton,williamsjason@example.org,+1-997-528-5839x565,23,Other,New York,New York,USA,2024-09-28,New,Toys & Games,Desktop,218,1
+297,Robin,Mclaughlin,jonlee@example.com,632.788.4999x8403,50,Male,New York,New York,USA,2024-01-15,Regular,Fashion,Desktop,1839,1
+298,Robin,Ryan,phillip06@example.net,001-492-826-1755,63,Female,Delhi,Delhi,India,2023-10-29,Premium,Home & Kitchen,Mobile,2350,0
+299,Alyssa,Hall,jennifercarlson@example.net,5314467064,62,Female,Chicago,Illinois,USA,2026-04-23,Premium,Toys & Games,Desktop,43,0
+300,Jeffrey,Pacheco,tmiller@example.com,+1-408-511-9001,34,Male,Mumbai,Maharashtra,India,2025-10-19,New,Grocery,Mobile,2360,1
+301,David,Cameron,osbornecheryl@example.net,518.320.2882x97187,21,Male,Delhi,Delhi,India,2023-08-30,Regular,Toys & Games,Mobile,908,1
+302,Joseph,Lynch,christina95@example.net,001-336-991-9357x978,56,Female,Chicago,Illinois,USA,2024-03-06,Regular,Books,Tablet,1176,1
+303,Jill,Caldwell,paula52@example.com,461-760-6438x4511,57,Male,Mumbai,Maharashtra,India,2024-02-25,Regular,Home & Kitchen,Tablet,701,1
+304,Melissa,Jackson,npacheco@example.com,(642)733-2836,22,Other,Pune,Maharashtra,India,2025-05-31,Regular,Electronics,Desktop,3851,1
+305,Shannon,Bennett,jodypena@example.net,9049916191,41,Male,New York,New York,USA,2023-12-14,New,Fashion,Desktop,1975,1
+306,Katie,Allen,ericasummers@example.com,+1-710-813-9210x00859,55,Female,Delhi,Delhi,India,2024-06-09,Regular,Electronics,Desktop,4472,1
+307,Reginald,Johnson,jbrandt@example.com,394-309-6457,61,Female,Bengaluru,Karnataka,India,2024-12-26,Regular,Home & Kitchen,Mobile,516,1
+308,Sara,Patton,vhester@example.com,(928)807-9189x205,20,Male,Chicago,Illinois,USA,2024-05-05,New,Books,Mobile,2585,0
+309,Erik,Collins,nmoore@example.org,7574449411,43,Other,London,England,UK,2024-08-23,Regular,Sports & Fitness,Mobile,1565,1
+310,James,Case,william88@example.com,001-325-826-9242x313,59,Male,Mumbai,Maharashtra,India,2025-06-01,New,Beauty & Personal Care,Desktop,3276,1
+311,Thomas,Thomas,joseph34@example.net,914.443.7972x6584,39,Other,New York,New York,USA,2025-03-03,Regular,Toys & Games,Desktop,4253,1
+312,Amy,Johnson,patrick05@example.net,+1-706-432-7332,64,Male,Delhi,Delhi,India,2024-06-19,Regular,Home & Kitchen,Tablet,2406,1
+313,Denise,Kane,katieporter@example.com,246-875-2754x1522,38,Female,Delhi,Delhi,India,2026-04-07,Regular,Grocery,Mobile,3636,1
+314,Allison,Ramos,ariascrystal@example.com,721.471.2314x661,64,Female,Mumbai,Maharashtra,India,2025-04-19,Regular,Grocery,Desktop,469,1
+315,Kimberly,Hess,younglisa@example.net,821.490.3579x70091,41,Female,New York,New York,USA,2024-11-14,Premium,Home & Kitchen,Mobile,1169,1
+316,Samantha,Howard,christopher71@example.net,821-638-5780x72866,20,Male,Chicago,Illinois,USA,2024-11-19,New,Beauty & Personal Care,Desktop,3136,0
+317,Brittany,Smith,sonya53@example.org,+1-663-454-6107x05852,56,Male,Mumbai,Maharashtra,India,2026-05-01,Regular,Beauty & Personal Care,Desktop,3636,1
+318,Shannon,Roth,judyhawkins@example.org,(201)250-6148x318,26,Female,Toronto,Ontario,Canada,2025-06-10,Regular,Sports & Fitness,Mobile,929,1
+319,Kevin,Juarez,hoffmandaniel@example.com,737.212.7551x89843,49,Female,Bengaluru,Karnataka,India,2024-05-08,VIP,Fashion,Desktop,2132,1
+320,Gerald,Thornton,jefferyday@example.net,(922)721-5511x6161,57,Male,Hyderabad,Telangana,India,2023-08-13,VIP,Toys & Games,Mobile,1004,1
+321,Angela,Chambers,masonerickson@example.net,(788)861-7506x669,46,Male,Delhi,Delhi,India,2025-06-10,Premium,Fashion,Tablet,2618,1
+322,Thomas,Franco,morgansmith@example.net,613.630.7795x1837,53,Female,Delhi,Delhi,India,2024-01-14,Premium,Home & Kitchen,Tablet,1426,1
+323,Kevin,Williams,robert81@example.org,001-447-865-1288,32,Male,London,England,UK,2024-05-23,New,Home & Kitchen,Mobile,4047,1
+324,Susan,Khan,nwright@example.com,(620)772-7821x2890,54,Male,London,England,UK,2024-08-03,Premium,Home & Kitchen,Tablet,706,1
+325,Billy,Williams,bryan85@example.net,(896)285-9707,63,Female,New York,New York,USA,2026-06-30,Regular,Grocery,Tablet,604,1
+326,Dawn,Ramos,jeannebenson@example.net,757-645-8196x9405,59,Male,Pune,Maharashtra,India,2025-08-16,Regular,Beauty & Personal Care,Mobile,4516,1
+327,Tammy,Warner,elizabeth36@example.org,001-288-732-4702x518,26,Male,Bengaluru,Karnataka,India,2024-01-04,VIP,Electronics,Mobile,4244,1
+328,Micheal,Schneider,wyattadam@example.org,001-640-434-5949x1633,28,Male,Bengaluru,Karnataka,India,2024-06-24,Premium,Beauty & Personal Care,Tablet,2326,1
+329,Nicole,Davis,mark92@example.com,273-364-9739x068,30,Female,Chennai,Tamil Nadu,India,2025-02-10,Regular,Home & Kitchen,Tablet,2480,1
+330,Christopher,York,davenportelizabeth@example.net,(917)443-2419x7879,50,Female,Delhi,Delhi,India,2025-07-13,Regular,Home & Kitchen,Mobile,4957,1
+331,Jamie,Vasquez,robert51@example.net,915-687-4598x5615,20,Female,Toronto,Ontario,Canada,2024-04-24,New,Electronics,Tablet,4724,1
+332,Philip,Wright,pdavis@example.org,001-354-337-8066x00606,54,Male,Hyderabad,Telangana,India,2024-02-13,Regular,Toys & Games,Tablet,4469,1
+333,Ronald,Ortiz,sowens@example.org,(803)827-6658x5222,48,Male,Chennai,Tamil Nadu,India,2024-08-28,Premium,Grocery,Desktop,3715,1
+334,Susan,Berry,montoyakyle@example.net,959.695.6460,28,Male,Mumbai,Maharashtra,India,2024-01-18,Regular,Books,Desktop,4969,1
+335,Debra,Carpenter,alvarezmatthew@example.net,(353)467-8350x88834,64,Other,Pune,Maharashtra,India,2025-01-11,Regular,Grocery,Mobile,3035,1
+336,Lauren,Bright,phiggins@example.org,001-308-731-5588,38,Male,Delhi,Delhi,India,2024-06-12,New,Toys & Games,Mobile,1154,1
+337,Catherine,Parker,gflores@example.com,+1-735-976-5167x8170,42,Female,Chennai,Tamil Nadu,India,2024-04-01,Regular,Home & Kitchen,Desktop,4732,1
+338,Karen,Barnes,amandamiller@example.net,960-461-9476,28,Female,Hyderabad,Telangana,India,2024-08-26,Regular,Toys & Games,Desktop,4074,1
+339,Jaclyn,Mason,kyle17@example.net,(828)863-0128,50,Female,New York,New York,USA,2025-07-20,New,Beauty & Personal Care,Mobile,414,1
+340,Richard,Bennett,bradleymendez@example.net,(348)728-2144,59,Female,Toronto,Ontario,Canada,2026-05-06,New,Electronics,Mobile,3530,1
+341,Nicole,Gross,peckadam@example.net,+1-889-827-1756,64,Male,Chennai,Tamil Nadu,India,2025-03-25,Regular,Electronics,Desktop,419,1
+342,Margaret,Martin,qgrant@example.com,690-982-1895x10581,41,Female,Hyderabad,Telangana,India,2024-04-15,New,Toys & Games,Tablet,2291,1
+343,Christopher,Payne,kellyreeves@example.net,696.429.3287x424,61,Female,Toronto,Ontario,Canada,2026-03-16,New,Fashion,Desktop,3057,1
+344,Matthew,Brooks,onelson@example.com,650-336-8634,53,Other,Pune,Maharashtra,India,2024-02-15,Premium,Books,Tablet,4170,1
+345,Brian,Carr,hornbradley@example.net,(686)481-9504x64671,20,Male,Mumbai,Maharashtra,India,2025-08-25,Premium,Toys & Games,Tablet,3743,1
+346,Rebecca,Mahoney,lindseyhernandez@example.com,(274)571-2122x3496,26,Male,London,England,UK,2024-02-08,Regular,Home & Kitchen,Desktop,2451,1
+347,Linda,Edwards,luisflores@example.com,(930)337-8825x886,50,Female,London,England,UK,2024-01-15,Premium,Sports & Fitness,Desktop,136,1
+348,Meredith,Davis,stevensmith@example.org,(631)411-6705x97289,44,Female,Delhi,Delhi,India,2025-09-05,Premium,Electronics,Tablet,3887,1
+349,Katherine,White,dennis15@example.net,(990)948-9021x20830,54,Male,Toronto,Ontario,Canada,2025-02-27,New,Toys & Games,Mobile,4294,1
+350,Carol,Fox,frank03@example.net,441.293.6403x90498,42,Male,Toronto,Ontario,Canada,2025-07-01,Regular,Electronics,Tablet,900,1
+351,Richard,Ramirez,ruizkyle@example.net,+1-990-948-0599x0557,38,Male,Chicago,Illinois,USA,2024-05-16,Regular,Books,Desktop,4110,1
+352,Sheri,Farmer,smithjason@example.com,882-513-2219x58155,65,Female,Chicago,Illinois,USA,2025-08-24,Premium,Books,Tablet,2662,0
+353,Patrick,Solomon,sylvia42@example.net,881-804-5820,51,Male,Chicago,Illinois,USA,2023-11-22,VIP,Toys & Games,Tablet,2804,1
+354,Regina,Good,jacqueline54@example.org,484-871-9584x68925,57,Female,Chennai,Tamil Nadu,India,2026-01-25,VIP,Sports & Fitness,Tablet,2445,1
+355,Andrew,Murphy,burgesslauren@example.org,548.624.9433x896,36,Female,Chennai,Tamil Nadu,India,2025-03-24,Regular,Toys & Games,Desktop,3930,1
+356,Craig,Carrillo,xalvarez@example.com,422.808.5060,36,Male,Chennai,Tamil Nadu,India,2026-07-06,Regular,Grocery,Desktop,2827,0
+357,Latoya,Johnson,dunnkathleen@example.net,+1-591-646-7629x80849,36,Male,Bengaluru,Karnataka,India,2024-11-01,VIP,Fashion,Desktop,3623,1
+358,Abigail,Davis,nathaniel76@example.com,+1-408-783-9906x592,31,Male,Chicago,Illinois,USA,2026-06-25,Regular,Sports & Fitness,Mobile,894,1
+359,Wayne,Cameron,sweeneyvictoria@example.org,807.614.5566x7655,33,Male,Toronto,Ontario,Canada,2025-12-29,Regular,Books,Tablet,1907,1
+360,Mary,Wiley,tracygomez@example.org,(857)945-8693x55837,39,Female,New York,New York,USA,2025-10-02,New,Home & Kitchen,Mobile,4508,0
+361,Kaitlyn,Poole,david00@example.com,(814)598-2329,44,Female,Bengaluru,Karnataka,India,2026-04-15,Premium,Toys & Games,Desktop,1633,1
+362,Lauren,Casey,melissa77@example.net,+1-989-411-5834x1944,38,Male,Chennai,Tamil Nadu,India,2025-04-17,New,Fashion,Tablet,4703,1
+363,Joshua,Ramirez,brenda45@example.com,552-561-2322x8381,29,Male,Mumbai,Maharashtra,India,2025-07-27,Premium,Electronics,Desktop,4058,1
+364,Felicia,Cooper,greeryesenia@example.net,001-241-741-5353x039,20,Male,Chennai,Tamil Nadu,India,2024-06-05,Regular,Fashion,Desktop,2331,1
+365,Scott,Miranda,peterfigueroa@example.com,310.228.9488x4783,51,Female,London,England,UK,2025-04-08,VIP,Toys & Games,Desktop,1579,1
+366,Luis,Lawrence,johnjensen@example.com,(741)969-9827x419,28,Female,Pune,Maharashtra,India,2024-05-01,Regular,Home & Kitchen,Mobile,2761,1
+367,Michael,Jimenez,cathylopez@example.com,001-901-370-8218x156,61,Female,Toronto,Ontario,Canada,2025-02-16,New,Grocery,Desktop,4221,1
+368,Amber,Barrett,richard97@example.org,877-997-1444x333,60,Male,New York,New York,USA,2024-06-13,VIP,Toys & Games,Desktop,2032,1
+369,Steven,Lawson,javier93@example.com,(918)375-6903x9486,33,Male,New York,New York,USA,2025-03-31,New,Beauty & Personal Care,Desktop,4771,1
+370,Erika,Reed,huertanicole@example.net,001-468-583-5850x79141,34,Female,Mumbai,Maharashtra,India,2024-09-17,Regular,Electronics,Tablet,968,1
+371,James,Norton,stacy05@example.com,5024026484,43,Female,Bengaluru,Karnataka,India,2025-05-31,VIP,Sports & Fitness,Tablet,961,1
+372,James,White,gjones@example.net,001-803-402-1123x4755,41,Female,Chennai,Tamil Nadu,India,2025-07-04,New,Home & Kitchen,Desktop,1254,1
+373,Natalie,Morgan,ogonzales@example.com,+1-763-257-3835x146,41,Male,Toronto,Ontario,Canada,2025-11-09,Regular,Toys & Games,Tablet,1789,1
+374,Cynthia,Webb,chensandra@example.org,339-218-1889x562,23,Female,Toronto,Ontario,Canada,2024-12-13,Regular,Beauty & Personal Care,Mobile,4621,1
+375,Heidi,Jenkins,jose07@example.net,+1-625-352-1637x0957,50,Male,London,England,UK,2026-07-17,Regular,Home & Kitchen,Desktop,4262,1
+376,Albert,York,teresa91@example.com,5315483002,63,Female,Hyderabad,Telangana,India,2024-03-28,New,Toys & Games,Mobile,3714,1
+377,Kenneth,Snyder,johnsoncameron@example.net,714.827.0546x4266,47,Female,New York,New York,USA,2023-11-15,Regular,Sports & Fitness,Tablet,178,1
+378,Robert,Richard,dennisbaker@example.net,(425)307-3855,65,Male,Mumbai,Maharashtra,India,2026-01-31,New,Grocery,Desktop,522,1
+379,Debra,Duran,rebecca34@example.net,+1-306-515-1125,22,Other,Mumbai,Maharashtra,India,2026-05-24,Regular,Sports & Fitness,Desktop,1474,1
+380,Benjamin,Peterson,hartrandy@example.org,(836)831-4529,41,Other,New York,New York,USA,2025-12-08,Regular,Grocery,Desktop,657,1
+381,Anthony,Frazier,igreen@example.net,897.965.9569,26,Female,London,England,UK,2026-03-03,Regular,Home & Kitchen,Tablet,3219,1
+382,Caleb,Miller,heidimurray@example.org,790.959.5261,18,Female,Hyderabad,Telangana,India,2025-08-24,VIP,Toys & Games,Tablet,4460,1
+383,David,Morrow,pwilson@example.com,001-344-864-1909,32,Male,New York,New York,USA,2024-06-19,Regular,Sports & Fitness,Mobile,924,1
+384,Michael,Turner,wmiller@example.net,+1-417-881-4535x41779,57,Female,New York,New York,USA,2025-02-02,Premium,Electronics,Mobile,1688,1
+385,Mariah,Cook,david41@example.net,001-215-583-0570,20,Male,Toronto,Ontario,Canada,2026-01-01,Regular,Electronics,Mobile,362,1
+386,Evan,Tran,weberryan@example.org,987.204.3146x0210,52,Male,Hyderabad,Telangana,India,2024-01-22,Premium,Electronics,Mobile,4127,0
+387,Elizabeth,Mason,johnsmith@example.org,(805)867-0353x1144,64,Female,Hyderabad,Telangana,India,2024-08-16,Regular,Beauty & Personal Care,Mobile,2472,1
+388,Kathleen,Campbell,melaniewhitney@example.net,+1-281-417-5981x2737,32,Male,London,England,UK,2025-03-16,New,Home & Kitchen,Tablet,3499,1
+389,Alexis,Ross,josetaylor@example.org,(949)802-5574x038,40,Other,Mumbai,Maharashtra,India,2024-03-28,Regular,Beauty & Personal Care,Tablet,3410,1
+390,Rachel,Nichols,jason27@example.org,920-809-4500,42,Male,Chennai,Tamil Nadu,India,2023-12-02,Regular,Books,Mobile,2463,1
+391,Anthony,Mathews,donaldsonmark@example.net,(477)533-9476x9056,47,Other,Bengaluru,Karnataka,India,2024-11-19,Regular,Grocery,Tablet,4341,1
+392,Melissa,Ford,schwartzryan@example.com,(375)634-0955x3414,34,Male,Hyderabad,Telangana,India,2025-01-21,Regular,Toys & Games,Desktop,757,1
+393,Ashlee,Hill,paulmonica@example.org,981.789.5780x382,21,Male,Hyderabad,Telangana,India,2023-10-23,Regular,Electronics,Mobile,1541,1
+394,Kristen,Beasley,imorales@example.org,001-287-853-4555x642,64,Female,Toronto,Ontario,Canada,2026-03-24,New,Books,Desktop,2483,0
+395,Casey,Peterson,swright@example.com,(475)963-8926x29361,31,Other,Mumbai,Maharashtra,India,2026-05-12,VIP,Fashion,Tablet,3923,0
+396,Travis,Barr,anthony56@example.net,(679)530-1566x8322,63,Male,Toronto,Ontario,Canada,2023-11-04,VIP,Beauty & Personal Care,Desktop,3118,1
+397,Rose,Hall,schroederscott@example.com,+1-990-939-8296x9685,37,Male,Pune,Maharashtra,India,2026-03-17,Regular,Toys & Games,Desktop,807,1
+398,Jessica,Young,rcox@example.com,326.676.4660x8972,38,Other,Chicago,Illinois,USA,2023-11-28,Regular,Grocery,Mobile,4608,1
+399,Bianca,Lawrence,mckenziederek@example.org,+1-730-560-4833x707,19,Male,Bengaluru,Karnataka,India,2025-03-11,VIP,Grocery,Desktop,1248,1
+400,Tabitha,Castro,hudsontammy@example.com,794.307.2457x4738,42,Female,Hyderabad,Telangana,India,2025-06-05,New,Beauty & Personal Care,Desktop,4002,0
+401,Sarah,Jones,parksandrew@example.net,974-348-8247,47,Male,Chicago,Illinois,USA,2025-12-16,Premium,Home & Kitchen,Mobile,4477,1
+402,Kathryn,Mathews,lauraklein@example.org,868-264-4574,59,Other,London,England,UK,2024-08-12,Regular,Fashion,Tablet,397,1
+403,Cody,Ward,robinsonivan@example.net,752.715.9285,26,Female,New York,New York,USA,2024-04-08,New,Home & Kitchen,Mobile,1791,1
+404,Mary,Jones,michael78@example.net,001-679-521-7739x073,21,Female,Pune,Maharashtra,India,2024-12-13,Regular,Toys & Games,Tablet,3996,1
+405,Lee,Ramirez,webbmatthew@example.com,921-836-7402x8717,53,Male,London,England,UK,2024-02-13,New,Sports & Fitness,Tablet,2348,1
+406,Adrian,Mooney,griffithsara@example.com,481.426.7485,29,Male,New York,New York,USA,2025-05-31,New,Home & Kitchen,Mobile,1572,1
+407,William,Maynard,christopher55@example.com,(620)399-1191x5302,40,Male,Chennai,Tamil Nadu,India,2023-11-25,Regular,Beauty & Personal Care,Desktop,3760,1
+408,Walter,Shelton,thomas81@example.org,001-728-334-8852x3068,37,Female,Hyderabad,Telangana,India,2025-07-06,Premium,Electronics,Mobile,3320,1
+409,Mary,Mosley,mitchellphillip@example.org,(956)291-8442x827,48,Male,London,England,UK,2025-12-19,New,Home & Kitchen,Mobile,4094,1
+410,Ralph,Pierce,lisa98@example.net,(849)823-3206x372,54,Other,Pune,Maharashtra,India,2026-07-15,VIP,Electronics,Mobile,1731,0
+411,Kelli,Wood,robert61@example.com,+1-661-435-6998x528,48,Male,Toronto,Ontario,Canada,2025-08-05,VIP,Sports & Fitness,Tablet,4616,1
+412,Jessica,Dennis,diane24@example.com,(767)225-8994,38,Male,Bengaluru,Karnataka,India,2025-04-18,New,Home & Kitchen,Tablet,3262,0
+413,Anthony,Mcbride,sullivanamanda@example.com,+1-885-654-5718x2563,28,Female,Chennai,Tamil Nadu,India,2024-11-08,Regular,Grocery,Tablet,4428,1
+414,Vanessa,Reynolds,morseallison@example.org,922.417.2138,62,Female,Bengaluru,Karnataka,India,2023-08-22,Regular,Beauty & Personal Care,Mobile,800,1
+415,Amanda,Murphy,iball@example.org,001-224-504-2274x42268,39,Female,Delhi,Delhi,India,2024-09-05,Regular,Grocery,Desktop,242,1
+416,Amber,Holland,velazquezkaren@example.com,962-922-6377x497,49,Male,Chicago,Illinois,USA,2025-11-29,Regular,Grocery,Desktop,1521,1
+417,Lisa,Price,fwilson@example.net,586-751-7367x2547,23,Female,New York,New York,USA,2024-08-21,New,Books,Tablet,602,1
+418,Tina,Smith,kevin37@example.com,001-823-903-3921,42,Female,Bengaluru,Karnataka,India,2025-03-30,Regular,Grocery,Desktop,2954,1
+419,Brianna,Valdez,castroeileen@example.net,484.805.2601x738,37,Male,Mumbai,Maharashtra,India,2026-02-08,Premium,Fashion,Mobile,715,1
+420,Lucas,Walker,kimwalker@example.net,944-213-9357x76986,53,Female,Chicago,Illinois,USA,2023-08-18,Regular,Electronics,Mobile,2899,1
+421,Christopher,Bell,cooperkathleen@example.com,453.849.2369x10926,56,Female,Toronto,Ontario,Canada,2025-08-05,Premium,Electronics,Desktop,3389,1
+422,Kenneth,Leach,leedanielle@example.org,+1-378-733-1194x68423,64,Other,Delhi,Delhi,India,2025-08-06,VIP,Books,Tablet,4268,1
+423,Raymond,Turner,stuart81@example.net,001-711-624-5423x7003,28,Male,New York,New York,USA,2026-07-10,Regular,Toys & Games,Mobile,518,1
+424,Heather,Maxwell,dylan90@example.org,4834331223,44,Male,Chennai,Tamil Nadu,India,2026-07-23,Premium,Beauty & Personal Care,Desktop,2020,1
+425,Yesenia,Palmer,ylopez@example.com,989.941.3999,56,Female,Chicago,Illinois,USA,2024-02-03,Regular,Home & Kitchen,Desktop,55,0
+426,Rebecca,Nguyen,juliasmith@example.net,(512)495-7380x52685,57,Male,Pune,Maharashtra,India,2025-08-17,Premium,Toys & Games,Desktop,3527,1
+427,Jason,Bailey,wcox@example.org,986-250-9611x202,26,Male,Toronto,Ontario,Canada,2025-06-12,Regular,Books,Desktop,2573,1
+428,Christopher,Cruz,fcook@example.org,001-554-254-2634x544,38,Male,New York,New York,USA,2024-01-02,Regular,Toys & Games,Tablet,1985,1
+429,Michael,Sanders,apruitt@example.net,746.276.2935,43,Male,Chennai,Tamil Nadu,India,2024-12-01,VIP,Books,Tablet,4469,1
+430,Angelica,Richardson,jamesrobbins@example.org,+1-940-212-6229x075,19,Other,London,England,UK,2025-01-07,Regular,Books,Desktop,2386,1
+431,Derek,Sanders,anthonymiller@example.net,303-905-3435x08905,44,Female,Delhi,Delhi,India,2026-06-27,New,Sports & Fitness,Mobile,2069,1
+432,Jay,Watson,gonzaleshannah@example.net,828.772.3309x292,42,Male,New York,New York,USA,2024-05-02,VIP,Toys & Games,Tablet,3283,1
+433,Cassandra,Evans,dominique02@example.net,(588)531-6318,52,Male,New York,New York,USA,2024-02-27,VIP,Fashion,Mobile,2033,1
+434,Aaron,Burns,bhiggins@example.com,001-656-929-6508x53640,28,Female,Pune,Maharashtra,India,2025-04-18,New,Grocery,Desktop,3526,1
+435,Stephanie,Walsh,elizabeth86@example.net,+1-316-208-5010x921,34,Male,Delhi,Delhi,India,2025-07-28,Premium,Books,Desktop,3064,1
+436,Stephanie,Wyatt,jacksonnicole@example.com,001-597-758-0799,62,Female,Toronto,Ontario,Canada,2025-11-05,Regular,Electronics,Desktop,856,1
+437,Nichole,Chang,matthewwu@example.org,653-807-6041x53991,25,Female,Delhi,Delhi,India,2026-03-11,Premium,Beauty & Personal Care,Desktop,2810,1
+438,Robert,Henderson,adam46@example.com,944-653-7148,51,Female,Hyderabad,Telangana,India,2024-11-02,Regular,Toys & Games,Tablet,3706,1
+439,Darrell,Meyer,jose76@example.com,947.519.2151x7318,20,Female,Chennai,Tamil Nadu,India,2024-09-29,New,Beauty & Personal Care,Tablet,895,1
+440,Diana,Powell,sanchezalbert@example.com,3646268190,65,Male,Bengaluru,Karnataka,India,2025-03-25,New,Home & Kitchen,Desktop,4586,1
+441,Jose,Lambert,christopherramsey@example.net,335-794-4780x9671,32,Female,Chicago,Illinois,USA,2026-05-31,Regular,Home & Kitchen,Tablet,3540,1
+442,Stacey,Tyler,guzmanjaclyn@example.net,001-698-432-9043x3533,30,Male,Toronto,Ontario,Canada,2026-05-19,Regular,Electronics,Tablet,1759,1
+443,Larry,Simpson,wheelerallison@example.com,260-924-8961x91792,54,Male,Delhi,Delhi,India,2025-07-19,Premium,Home & Kitchen,Desktop,2670,1
+444,Timothy,Shah,colemanmelissa@example.org,+1-841-728-3946x01957,34,Female,Delhi,Delhi,India,2024-03-08,Regular,Beauty & Personal Care,Tablet,3183,1
+445,Jeremy,Lang,hodgejoshua@example.net,+1-550-357-3969x7300,25,Male,Toronto,Ontario,Canada,2025-03-23,Premium,Home & Kitchen,Tablet,2436,0
+446,Yvette,Pacheco,tonya36@example.org,739.662.2337x3324,23,Female,Toronto,Ontario,Canada,2025-09-05,Regular,Books,Desktop,958,1
+447,Robert,Bryant,brianjohnson@example.com,787-504-7082x1957,50,Male,Bengaluru,Karnataka,India,2024-09-12,Regular,Grocery,Desktop,1521,1
+448,Bethany,Foster,jessica53@example.net,9024549947,62,Other,London,England,UK,2023-12-30,VIP,Home & Kitchen,Tablet,1366,1
+449,David,Richards,charleswallace@example.net,(886)807-1832x386,29,Male,Bengaluru,Karnataka,India,2024-09-19,Regular,Electronics,Desktop,78,1
+450,Austin,Marsh,lbennett@example.com,001-927-876-8577,42,Other,Hyderabad,Telangana,India,2025-02-10,Regular,Toys & Games,Desktop,4028,1
+451,David,Yang,mariahernandez@example.com,+1-202-308-5224x511,49,Male,Chicago,Illinois,USA,2024-02-07,Regular,Books,Desktop,267,1
+452,Trevor,Cabrera,kmontoya@example.net,208.594.1878x32338,36,Male,London,England,UK,2026-02-10,Regular,Toys & Games,Tablet,4184,1
+453,Steven,Wells,nyu@example.org,601.912.2022x98749,35,Female,Delhi,Delhi,India,2024-10-08,Premium,Beauty & Personal Care,Tablet,340,1
+454,Michelle,Cook,maloneshannon@example.org,001-751-321-6252,52,Male,Chicago,Illinois,USA,2023-12-27,Regular,Books,Desktop,264,1
+455,Garrett,Hall,michael91@example.net,743-889-6080,23,Male,Pune,Maharashtra,India,2025-11-08,VIP,Books,Mobile,4816,1
+456,John,Brown,martin47@example.net,+1-358-567-9755x40009,58,Male,Toronto,Ontario,Canada,2024-06-26,Regular,Books,Mobile,486,1
+457,Jessica,Thompson,courtney24@example.org,(533)374-7834,35,Female,London,England,UK,2023-11-04,New,Sports & Fitness,Desktop,4691,1
+458,Sabrina,Huynh,diane87@example.org,(556)449-7300x098,61,Female,London,England,UK,2026-02-05,New,Grocery,Mobile,2271,1
+459,Diana,Wood,imartinez@example.net,(639)690-2096x31068,62,Female,Bengaluru,Karnataka,India,2025-11-24,New,Beauty & Personal Care,Mobile,3217,1
+460,Michelle,Robertson,blong@example.net,980-547-1202,58,Male,Toronto,Ontario,Canada,2024-07-18,Regular,Toys & Games,Mobile,762,1
+461,Victor,Collins,williamstamara@example.com,242-570-4938x125,62,Other,Chennai,Tamil Nadu,India,2025-11-11,Regular,Toys & Games,Desktop,4767,1
+462,Alec,Torres,lmontgomery@example.org,761.849.4447,64,Other,Delhi,Delhi,India,2024-05-26,Regular,Beauty & Personal Care,Mobile,4378,1
+463,Adam,Rodriguez,bradshawpaul@example.org,+1-713-776-0193x350,31,Female,New York,New York,USA,2024-06-26,Regular,Sports & Fitness,Desktop,4483,1
+464,Tyler,Hughes,stacey95@example.com,+1-509-988-6667x00348,49,Female,Toronto,Ontario,Canada,2025-06-27,Premium,Electronics,Mobile,815,1
+465,Misty,Fields,delgadorussell@example.com,+1-580-450-5374,19,Male,Chicago,Illinois,USA,2025-11-28,Premium,Toys & Games,Desktop,5,0
+466,Kimberly,Valenzuela,eramos@example.org,801-684-8460x797,30,Other,New York,New York,USA,2024-08-02,VIP,Sports & Fitness,Mobile,2244,1
+467,Lauren,Campbell,stevenschristopher@example.org,365-631-0626x8281,34,Male,Pune,Maharashtra,India,2023-10-28,Regular,Home & Kitchen,Mobile,3246,1
+468,Robert,Kim,johnperez@example.org,503.942.5453x217,45,Female,Hyderabad,Telangana,India,2025-09-21,Premium,Electronics,Mobile,3906,1
+469,Tyrone,Davila,hodgelaurie@example.com,382.985.8614x4745,32,Female,Toronto,Ontario,Canada,2024-05-14,Regular,Electronics,Tablet,2814,1
+470,Alejandro,Garcia,butlervincent@example.com,5346790284,62,Male,New York,New York,USA,2025-09-16,New,Grocery,Mobile,839,1
+471,Danielle,Watson,stanleymark@example.com,843.254.9750x34812,37,Male,Pune,Maharashtra,India,2024-07-16,Premium,Home & Kitchen,Tablet,1170,1
+472,Michael,Garcia,coxderrick@example.com,468-265-1873,18,Female,Toronto,Ontario,Canada,2025-06-15,New,Beauty & Personal Care,Tablet,1745,1
+473,Kathleen,Leon,tiffany54@example.net,2552310458,44,Female,Bengaluru,Karnataka,India,2026-06-24,Regular,Books,Mobile,823,1
+474,Patricia,Hutchinson,rodriguezjeffrey@example.net,916-858-3857x99469,55,Female,Delhi,Delhi,India,2024-08-24,Regular,Grocery,Desktop,1145,1
+475,Vicki,Waters,kristy39@example.net,+1-257-721-1933x02475,33,Female,Delhi,Delhi,India,2025-08-14,Regular,Sports & Fitness,Tablet,219,1
+476,Matthew,Patrick,leslie61@example.net,+1-917-595-4875x179,31,Female,Chennai,Tamil Nadu,India,2024-08-24,Regular,Grocery,Desktop,447,1
+477,Bradley,Hernandez,hmathews@example.org,635.946.7185x7324,49,Male,Hyderabad,Telangana,India,2024-10-28,New,Fashion,Tablet,98,0
+478,Sara,Reed,hubbardstephen@example.com,7796307539,26,Male,Pune,Maharashtra,India,2026-07-26,Premium,Grocery,Desktop,4475,1
+479,Charlene,Lin,matthewwilson@example.net,(565)202-0914x6111,22,Male,Chicago,Illinois,USA,2026-06-22,New,Sports & Fitness,Mobile,326,0
+480,William,Murphy,jaimecook@example.com,(829)305-5862,50,Male,New York,New York,USA,2025-10-09,Premium,Grocery,Desktop,3295,1
+481,Sheila,Hill,wroberts@example.net,679.909.7715x5613,52,Female,London,England,UK,2026-03-11,New,Sports & Fitness,Mobile,4188,0
+482,Emily,Smith,thobbs@example.org,(612)526-8312,52,Male,Bengaluru,Karnataka,India,2024-01-07,Regular,Fashion,Desktop,3583,1
+483,Chris,Ayala,jessica15@example.com,+1-538-218-8953x1049,21,Male,Hyderabad,Telangana,India,2026-05-02,VIP,Fashion,Desktop,4987,1
+484,Nicholas,Park,montoyakevin@example.net,001-231-523-9006x15041,25,Male,Bengaluru,Karnataka,India,2024-09-22,New,Electronics,Mobile,4066,0
+485,Jessica,Kelly,millercarol@example.org,(308)508-4915x652,51,Female,London,England,UK,2024-02-27,Premium,Home & Kitchen,Desktop,1039,1
+486,Sydney,Lloyd,denisegomez@example.com,001-387-228-8713x03489,64,Female,Chennai,Tamil Nadu,India,2024-01-01,Premium,Electronics,Desktop,3517,1
+487,Kim,Olson,kristin09@example.com,593-564-3393x48430,34,Female,Delhi,Delhi,India,2025-07-16,Regular,Fashion,Desktop,3728,1
+488,Gary,Hurst,jennywood@example.org,+1-958-881-6843x04300,49,Female,Mumbai,Maharashtra,India,2024-07-28,New,Home & Kitchen,Desktop,842,1
+489,Sherry,Davis,christianjeremy@example.org,001-956-580-5735x7251,32,Female,Delhi,Delhi,India,2024-07-31,New,Electronics,Mobile,376,1
+490,Julia,Sullivan,plowery@example.net,590-430-8114x6188,27,Male,New York,New York,USA,2023-10-05,VIP,Electronics,Tablet,3435,1
+491,Jessica,Hart,corywhite@example.net,705-553-2697,44,Other,Hyderabad,Telangana,India,2024-11-07,Regular,Fashion,Tablet,3054,1
+492,Lori,Ellis,lesliewilliams@example.com,259.642.9402x18045,29,Male,Mumbai,Maharashtra,India,2024-06-10,Regular,Electronics,Desktop,564,1
+493,Jason,Vasquez,fritzmichael@example.org,267-683-3924,37,Male,Chennai,Tamil Nadu,India,2025-09-21,Regular,Electronics,Desktop,1643,1
+494,Yvonne,Mcdonald,william99@example.org,406-591-7096x443,65,Female,Chennai,Tamil Nadu,India,2026-02-19,Regular,Toys & Games,Mobile,4477,1
+495,Kristin,Williams,alexanderpowers@example.org,(226)870-0076,27,Male,Hyderabad,Telangana,India,2026-01-07,Regular,Books,Tablet,2837,1
+496,Mandy,Campbell,vanessa03@example.net,001-473-534-0189x34373,39,Male,Mumbai,Maharashtra,India,2026-04-04,Regular,Sports & Fitness,Mobile,1680,1
+497,Dakota,Gutierrez,thomas19@example.com,(813)995-3583x03893,44,Female,Hyderabad,Telangana,India,2026-05-22,New,Home & Kitchen,Tablet,2292,1
+498,Danny,Drake,bradypatrick@example.org,+1-347-687-9950x4864,51,Male,Hyderabad,Telangana,India,2025-10-01,Premium,Toys & Games,Tablet,695,1
+499,Kayla,Rhodes,aholmes@example.net,(958)977-8848x6380,26,Female,London,England,UK,2026-05-29,Regular,Electronics,Desktop,1070,1
+500,Lori,Williamson,riostheresa@example.com,835.405.9936x80550,38,Other,Chennai,Tamil Nadu,India,2026-07-11,Regular,Beauty & Personal Care,Desktop,3708,1
+501,Matthew,Evans,ndillon@example.net,001-652-886-6923x321,30,Male,Delhi,Delhi,India,2023-10-24,Premium,Fashion,Mobile,865,1
+502,Amy,Burton,ramireznathan@example.com,+1-381-360-3069,38,Male,Chicago,Illinois,USA,2024-08-10,Regular,Books,Desktop,2525,1
+503,Michelle,Logan,jcuevas@example.net,7523905503,23,Male,Delhi,Delhi,India,2026-03-23,Regular,Electronics,Mobile,2685,1
+504,Timothy,Campbell,sheilahahn@example.com,(524)998-7044x755,40,Male,Hyderabad,Telangana,India,2025-12-25,New,Sports & Fitness,Desktop,1424,1
+505,Thomas,Mann,lauren72@example.com,677-958-5144x679,46,Female,New York,New York,USA,2023-10-25,Regular,Fashion,Desktop,834,1
+506,Robert,Williamson,jamesrodriguez@example.org,(923)863-9608x291,25,Male,Bengaluru,Karnataka,India,2023-09-05,Premium,Books,Mobile,1623,1
+507,Allison,Soto,fnelson@example.org,552-709-7900,61,Female,Pune,Maharashtra,India,2026-07-21,Regular,Sports & Fitness,Mobile,178,0
+508,Caitlin,Valencia,edwardspeter@example.net,392-945-3774x85582,59,Male,Hyderabad,Telangana,India,2026-02-25,New,Beauty & Personal Care,Mobile,349,0
+509,Ariel,Mcclain,brianandrade@example.org,+1-952-368-4590x61801,28,Other,Mumbai,Maharashtra,India,2024-12-28,Regular,Grocery,Desktop,241,1
+510,Thomas,Johnson,benderamanda@example.com,+1-631-694-4984x087,29,Male,New York,New York,USA,2025-01-22,VIP,Sports & Fitness,Desktop,3653,1
+511,Christopher,Lee,koneal@example.com,768-814-8400x40500,57,Female,Mumbai,Maharashtra,India,2024-02-20,New,Sports & Fitness,Desktop,3375,1
+512,Shannon,Simmons,christinehernandez@example.org,8888558240,21,Male,Chicago,Illinois,USA,2026-03-19,Regular,Grocery,Mobile,4307,1
+513,Laura,Vargas,harrisdouglas@example.com,8078705922,19,Other,London,England,UK,2023-10-22,Premium,Beauty & Personal Care,Desktop,4460,1
+514,Victoria,Brennan,htrujillo@example.com,+1-577-607-4831,54,Female,Pune,Maharashtra,India,2024-08-09,Regular,Home & Kitchen,Mobile,2612,1
+515,Joseph,Jones,stacy76@example.com,(434)347-7515,35,Male,Mumbai,Maharashtra,India,2025-11-10,VIP,Beauty & Personal Care,Tablet,1906,0
+516,Curtis,Taylor,zcameron@example.org,214.896.0366x1838,33,Female,Delhi,Delhi,India,2024-01-16,New,Electronics,Mobile,4716,1
+517,Sandra,Terry,richardscarol@example.org,510-444-7561x59512,40,Other,New York,New York,USA,2023-10-21,VIP,Home & Kitchen,Mobile,1937,1
+518,Brent,Moore,vgallagher@example.net,427-574-2836x292,55,Male,Pune,Maharashtra,India,2025-11-22,Premium,Home & Kitchen,Tablet,1542,1
+519,George,Ryan,tsuarez@example.com,+1-396-667-3569,52,Male,Chicago,Illinois,USA,2023-12-17,Regular,Fashion,Mobile,1905,1
+520,Amber,Moody,howardtara@example.org,295-638-7992x50430,51,Female,Mumbai,Maharashtra,India,2026-04-08,Regular,Books,Mobile,2791,1
+521,Matthew,Gill,natasha23@example.com,001-838-655-8705x1563,21,Male,Pune,Maharashtra,India,2024-12-02,Regular,Home & Kitchen,Mobile,4311,1
+522,Kathy,Graham,jasonrodriguez@example.net,(859)978-0067x8699,41,Female,Delhi,Delhi,India,2025-06-11,Regular,Fashion,Desktop,2472,1
+523,Kimberly,Sanchez,joseph79@example.com,(205)488-5930x21460,64,Other,Bengaluru,Karnataka,India,2023-11-21,Premium,Toys & Games,Tablet,2599,1
+524,Christine,Robinson,collinhill@example.net,(325)970-7977,62,Female,London,England,UK,2025-03-07,Regular,Beauty & Personal Care,Mobile,4824,1
+525,Patricia,Steele,jbrady@example.org,323.989.8610x60172,37,Female,New York,New York,USA,2024-07-25,New,Home & Kitchen,Tablet,14,0
+526,Rachael,Carter,anthonybrown@example.org,249-858-2363x30255,43,Female,Toronto,Ontario,Canada,2024-01-26,Premium,Electronics,Mobile,4934,1
+527,Christopher,Edwards,marie27@example.com,(709)870-9764x67460,32,Female,Toronto,Ontario,Canada,2025-11-30,New,Toys & Games,Mobile,2712,1
+528,Marc,Williams,donaldpotts@example.com,001-632-885-5458x13393,40,Other,Hyderabad,Telangana,India,2023-09-25,New,Fashion,Tablet,2750,1
+529,Ann,Vincent,meganrobinson@example.net,851.581.6212,31,Male,Chennai,Tamil Nadu,India,2026-05-16,New,Sports & Fitness,Mobile,10,1
+530,Lori,Davis,craigking@example.net,+1-484-602-8140x5001,64,Male,Chicago,Illinois,USA,2026-01-28,New,Grocery,Desktop,3102,1
+531,Kenneth,Rogers,brownapril@example.org,001-757-456-5387x552,24,Female,New York,New York,USA,2024-12-28,Premium,Books,Mobile,3696,1
+532,Amanda,Potts,bonnie27@example.net,(948)611-4021x6245,36,Male,Mumbai,Maharashtra,India,2023-10-19,New,Fashion,Mobile,2800,1
+533,Timothy,Jackson,amyjones@example.com,890.720.0569x1420,28,Female,New York,New York,USA,2024-07-13,Regular,Fashion,Desktop,4866,0
+534,Brian,Johnson,erikbonilla@example.org,242-377-4759x5598,63,Male,Chicago,Illinois,USA,2025-03-13,VIP,Home & Kitchen,Tablet,3556,1
+535,Cynthia,Johnston,ccarlson@example.com,411.956.3350,39,Male,Delhi,Delhi,India,2025-06-15,New,Sports & Fitness,Tablet,2306,1
+536,Scott,Marshall,hamiltondavid@example.com,2594585169,21,Male,Delhi,Delhi,India,2024-11-22,Regular,Toys & Games,Mobile,446,1
+537,Stacy,Contreras,kcollins@example.net,4574516804,23,Male,New York,New York,USA,2024-04-13,Regular,Toys & Games,Mobile,794,1
+538,Brian,Mccarty,edwardsbilly@example.net,678.924.1760,58,Male,Bengaluru,Karnataka,India,2024-07-05,New,Fashion,Desktop,3256,1
+539,Amanda,Chapman,charlesandrews@example.com,326.412.7442,23,Female,Chennai,Tamil Nadu,India,2023-08-13,Regular,Beauty & Personal Care,Desktop,3026,1
+540,Elizabeth,Martin,goldenlindsey@example.org,001-241-737-7978x371,34,Male,Mumbai,Maharashtra,India,2025-01-23,New,Sports & Fitness,Tablet,504,1
+541,Amy,Parker,ricky27@example.com,001-383-721-5952x35870,23,Female,Delhi,Delhi,India,2026-03-31,Premium,Grocery,Tablet,1863,1
+542,Madison,Ortiz,ashleyayala@example.org,(264)318-9554,51,Male,New York,New York,USA,2023-09-28,Regular,Toys & Games,Tablet,1930,1
+543,Tina,Harris,michaeljones@example.org,313-625-1848x08823,43,Other,Delhi,Delhi,India,2025-07-19,Premium,Home & Kitchen,Mobile,3678,1
+544,Julia,Williams,jacob22@example.net,303-796-6621,31,Female,Bengaluru,Karnataka,India,2025-12-27,New,Grocery,Mobile,3566,1
+545,Mary,Mcfarland,alyssa28@example.org,9646111027,56,Male,Bengaluru,Karnataka,India,2025-06-15,VIP,Fashion,Mobile,3179,1
+546,John,Collins,erinfaulkner@example.org,908-372-2984x46750,38,Female,London,England,UK,2023-08-29,Regular,Electronics,Tablet,4813,1
+547,Michael,Bailey,gonzaleztimothy@example.com,001-876-209-6024,25,Male,New York,New York,USA,2023-09-11,New,Fashion,Mobile,4609,1
+548,Matthew,Williams,jacob44@example.org,470.811.4748x661,52,Female,Chennai,Tamil Nadu,India,2026-06-07,Premium,Sports & Fitness,Desktop,3977,1
+549,Kenneth,Sloan,chuff@example.net,893-606-5230,20,Male,Chicago,Illinois,USA,2026-01-17,Regular,Grocery,Mobile,3242,1
+550,Natalie,Freeman,laura50@example.org,(579)935-4203,62,Male,Pune,Maharashtra,India,2025-12-17,Premium,Sports & Fitness,Desktop,165,1
+551,Raymond,Stanley,lowedaniel@example.com,(239)954-8463x9350,37,Male,Chennai,Tamil Nadu,India,2026-04-05,Regular,Fashion,Mobile,1100,1
+552,Jeffrey,Robinson,deleonkathleen@example.com,001-539-816-6910,38,Male,Chicago,Illinois,USA,2026-03-12,Regular,Fashion,Mobile,3618,1
+553,Amber,Ferguson,jessica40@example.com,001-635-387-9643,65,Female,New York,New York,USA,2024-05-16,Regular,Beauty & Personal Care,Mobile,4221,1
+554,Donald,Holt,ztaylor@example.com,(344)988-2243,37,Female,Delhi,Delhi,India,2025-07-23,Regular,Electronics,Mobile,1579,1
+555,Ashley,Hebert,walterssara@example.net,420.510.4596x451,21,Male,Hyderabad,Telangana,India,2025-10-18,Regular,Beauty & Personal Care,Tablet,1631,1
+556,Nicole,Duffy,jasontaylor@example.com,(300)685-3967,50,Male,Chicago,Illinois,USA,2025-10-18,VIP,Electronics,Mobile,3051,1
+557,Tammy,Pugh,hparker@example.org,001-326-677-3186x070,29,Other,Chicago,Illinois,USA,2024-10-31,Regular,Beauty & Personal Care,Desktop,1339,1
+558,Nathan,Newton,leroy60@example.com,+1-237-900-5790x38891,65,Female,Chennai,Tamil Nadu,India,2024-11-21,New,Electronics,Desktop,406,1
+559,Lisa,Moody,rachelmorrow@example.org,(209)897-2864,31,Female,Toronto,Ontario,Canada,2024-06-24,Regular,Books,Desktop,3354,1
+560,Tyler,Marsh,joe72@example.com,001-339-562-0386x56040,48,Other,Mumbai,Maharashtra,India,2023-12-01,Regular,Electronics,Mobile,2067,1
+561,Daniel,Wallace,stevenskaren@example.org,517-880-8160,63,Other,Chennai,Tamil Nadu,India,2024-03-18,Regular,Grocery,Desktop,2856,1
+562,George,Larson,lcooper@example.com,277-203-5083x856,47,Male,Hyderabad,Telangana,India,2025-11-29,Regular,Grocery,Tablet,838,1
+563,Jeffrey,Smith,nicholascampbell@example.com,(514)276-3233x1687,53,Female,Pune,Maharashtra,India,2025-07-27,Regular,Sports & Fitness,Tablet,885,1
+564,Brian,Rodgers,sdouglas@example.net,001-723-559-4576x29509,35,Female,Pune,Maharashtra,India,2025-12-18,Premium,Sports & Fitness,Tablet,2447,1
+565,Elizabeth,Smith,bradadkins@example.org,871-574-4016x67989,33,Female,London,England,UK,2025-10-04,Premium,Grocery,Tablet,2618,1
+566,Samuel,Dunlap,shawn21@example.com,731.365.0211x61643,59,Female,Mumbai,Maharashtra,India,2025-07-20,New,Grocery,Desktop,3180,1
+567,Joshua,Ford,mthornton@example.org,573-693-8567x71051,63,Other,Toronto,Ontario,Canada,2024-07-06,Premium,Beauty & Personal Care,Tablet,1821,1
+568,Andrea,Lopez,vincentbaldwin@example.com,+1-288-282-9035x41722,60,Male,Chicago,Illinois,USA,2026-01-30,Regular,Home & Kitchen,Tablet,4573,1
+569,Maria,Taylor,megan10@example.org,781.753.6904x96292,48,Male,Delhi,Delhi,India,2024-09-23,New,Home & Kitchen,Tablet,2749,1
+570,Wesley,Ford,brianwest@example.org,001-259-314-3625x7634,40,Male,Hyderabad,Telangana,India,2024-04-22,Premium,Grocery,Desktop,3044,1
+571,Laura,Franklin,jared73@example.net,+1-558-768-9019x242,47,Female,Chennai,Tamil Nadu,India,2026-01-31,Regular,Fashion,Desktop,1593,1
+572,David,Howard,travis46@example.net,(819)358-7464x1023,51,Male,New York,New York,USA,2025-07-08,New,Home & Kitchen,Mobile,1640,1
+573,Melissa,Sanders,kevin34@example.com,(478)205-6191x058,47,Male,Toronto,Ontario,Canada,2025-05-31,Premium,Home & Kitchen,Mobile,3994,1
+574,Melinda,Adams,cchang@example.net,705.813.6475,38,Female,Bengaluru,Karnataka,India,2023-12-22,New,Sports & Fitness,Mobile,1381,1
+575,Mark,Tucker,griffithcarmen@example.net,001-212-254-4175x3500,49,Female,Bengaluru,Karnataka,India,2023-10-24,Premium,Home & Kitchen,Tablet,3552,1
+576,Cody,Wiley,toddsims@example.org,4109796783,45,Other,New York,New York,USA,2025-02-26,Regular,Electronics,Tablet,1633,1
+577,Lisa,Barajas,ojohnson@example.com,911-599-5508x230,38,Female,Mumbai,Maharashtra,India,2023-11-19,Regular,Electronics,Tablet,33,1
+578,Chelsea,Sanchez,mariaboyd@example.org,(216)354-2463,32,Female,Hyderabad,Telangana,India,2025-08-14,Regular,Home & Kitchen,Mobile,3142,1
+579,Marco,Wyatt,zfrost@example.org,+1-390-255-1861x11621,28,Male,Chennai,Tamil Nadu,India,2025-12-23,New,Sports & Fitness,Desktop,4262,1
+580,David,Wilkinson,alyssa34@example.com,+1-235-873-8388,45,Female,Pune,Maharashtra,India,2024-01-10,VIP,Beauty & Personal Care,Desktop,2942,1
+581,Adam,Richards,antoniostewart@example.org,8695036990,43,Male,Bengaluru,Karnataka,India,2024-09-21,New,Home & Kitchen,Mobile,179,1
+582,Alex,Bishop,bdavis@example.org,001-345-752-6045x668,25,Male,Bengaluru,Karnataka,India,2026-06-25,Regular,Electronics,Desktop,2095,1
+583,Zachary,Wilson,awalker@example.com,7503408097,21,Female,Toronto,Ontario,Canada,2023-10-06,New,Fashion,Tablet,161,1
+584,Sean,Williams,ostephenson@example.net,+1-486-552-4116x23386,44,Male,Delhi,Delhi,India,2026-03-27,New,Sports & Fitness,Desktop,1254,1
+585,Lauren,Davis,elizabeth57@example.com,560-969-8161x7773,37,Male,Mumbai,Maharashtra,India,2025-06-23,New,Sports & Fitness,Tablet,4961,1
+586,Jo,Macdonald,jwalker@example.org,911.470.9148,24,Female,New York,New York,USA,2023-12-30,Regular,Sports & Fitness,Mobile,870,1
+587,Paul,Velazquez,oholmes@example.net,337.400.8550x612,30,Female,Toronto,Ontario,Canada,2024-09-26,Premium,Books,Desktop,3356,1
+588,Gary,Reed,jenkinschris@example.org,(378)756-4215,53,Female,Mumbai,Maharashtra,India,2024-05-20,New,Toys & Games,Desktop,1921,1
+589,Jeffrey,Moss,yfoster@example.org,920-871-4228x2758,25,Female,Delhi,Delhi,India,2024-10-18,Regular,Home & Kitchen,Mobile,4191,1
+590,Jonathan,Brown,gregorynguyen@example.org,001-618-849-9039x12101,34,Female,Delhi,Delhi,India,2025-10-07,Regular,Sports & Fitness,Desktop,3803,1
+591,Travis,Baker,janet19@example.net,(724)704-6081x4649,20,Female,Bengaluru,Karnataka,India,2025-04-29,Regular,Beauty & Personal Care,Desktop,949,1
+592,William,Barnes,brandon34@example.net,(216)234-1221x54697,18,Female,Mumbai,Maharashtra,India,2026-01-28,Regular,Home & Kitchen,Desktop,2928,1
+593,Jamie,Mills,michaeljohnson@example.org,(717)684-7913x1921,35,Female,Toronto,Ontario,Canada,2023-12-28,New,Beauty & Personal Care,Mobile,932,1
+594,Stephanie,Harris,whoward@example.org,+1-305-320-2486,35,Female,Chicago,Illinois,USA,2023-11-20,Regular,Toys & Games,Desktop,1366,1
+595,Courtney,Juarez,david06@example.net,753-595-1066,28,Male,Mumbai,Maharashtra,India,2026-01-30,VIP,Toys & Games,Tablet,3589,1
+596,Dustin,Stanley,jhahn@example.org,(242)970-7504x360,40,Female,New York,New York,USA,2026-05-10,Premium,Home & Kitchen,Desktop,3998,1
+597,Becky,Bishop,williamsmith@example.com,(875)853-5353,46,Male,New York,New York,USA,2024-11-08,New,Beauty & Personal Care,Mobile,4299,1
+598,Brianna,Sherman,parkrichard@example.org,4853938402,64,Female,Toronto,Ontario,Canada,2026-06-19,VIP,Beauty & Personal Care,Tablet,4285,1
+599,Tina,Herrera,eric58@example.net,758-215-8021x798,24,Male,Toronto,Ontario,Canada,2025-11-04,Premium,Toys & Games,Desktop,3152,1
+600,Dana,Hill,gonzalezscott@example.org,(227)802-7360x228,57,Male,London,England,UK,2024-12-13,Regular,Home & Kitchen,Tablet,3844,1
+601,Brittney,Holden,ibowman@example.com,(396)885-4784x731,22,Female,Bengaluru,Karnataka,India,2025-06-23,Regular,Beauty & Personal Care,Desktop,412,1
+602,Shirley,Sims,troy37@example.net,(294)395-3845,59,Male,London,England,UK,2026-03-22,Premium,Fashion,Desktop,3638,1
+603,Stacey,Williams,jimmy31@example.com,(715)531-7750x1053,23,Female,Chicago,Illinois,USA,2025-09-28,Regular,Fashion,Desktop,145,1
+604,Jordan,Davis,crawfordbobby@example.com,387.900.1755,20,Female,New York,New York,USA,2023-09-24,New,Fashion,Tablet,2495,1
+605,Bruce,Gill,michaelchavez@example.org,691-647-6475x7957,31,Female,London,England,UK,2024-12-06,Regular,Beauty & Personal Care,Desktop,444,1
+606,Brian,Evans,jason49@example.com,+1-254-345-3823,39,Female,Chicago,Illinois,USA,2023-12-02,Regular,Toys & Games,Tablet,2976,1
+607,Nicholas,Preston,virginia26@example.com,664-622-1999x30960,24,Female,Delhi,Delhi,India,2025-06-14,New,Beauty & Personal Care,Desktop,2391,1
+608,Jon,Ramirez,rparker@example.com,360-519-1353x75609,62,Male,Pune,Maharashtra,India,2023-12-17,Premium,Toys & Games,Mobile,3352,1
+609,Angela,Smith,annettemalone@example.com,001-681-338-9026x624,30,Male,Toronto,Ontario,Canada,2024-08-12,VIP,Grocery,Mobile,3744,1
+610,Morgan,Barnett,amandalambert@example.org,9692812877,63,Male,Hyderabad,Telangana,India,2026-07-31,Premium,Electronics,Tablet,4823,1
+611,Gregory,Guzman,wbarnes@example.net,851.313.0253x23545,47,Female,Chicago,Illinois,USA,2023-10-07,VIP,Home & Kitchen,Desktop,35,1
+612,David,Bonilla,kholmes@example.org,622.753.4765,53,Other,Mumbai,Maharashtra,India,2024-08-15,Premium,Toys & Games,Tablet,1451,1
+613,Nicolas,Lee,lharris@example.org,996-559-5831x358,64,Female,Bengaluru,Karnataka,India,2025-07-02,New,Beauty & Personal Care,Tablet,3151,1
+614,Robert,Johnson,aanderson@example.org,(957)901-4026x459,62,Female,Toronto,Ontario,Canada,2025-12-17,New,Beauty & Personal Care,Desktop,3709,1
+615,Andrew,Griffin,andreaallen@example.net,242-505-3000x7003,44,Female,Bengaluru,Karnataka,India,2025-07-16,Premium,Sports & Fitness,Tablet,4487,1
+616,Edward,Olson,jamesmarks@example.net,2484106782,58,Male,London,England,UK,2026-04-10,New,Sports & Fitness,Tablet,2828,0
+617,Dylan,Cook,kimberly35@example.com,381-506-6944,63,Female,Bengaluru,Karnataka,India,2024-04-13,VIP,Beauty & Personal Care,Tablet,945,1
+618,Pamela,Avila,kurtholloway@example.org,250-874-9941x8731,48,Female,London,England,UK,2026-05-25,VIP,Grocery,Tablet,4373,1
+619,Robert,Martinez,rschroeder@example.org,7429843771,18,Female,New York,New York,USA,2023-09-20,New,Home & Kitchen,Mobile,463,1
+620,Brandon,Nguyen,jamieperry@example.org,451-872-1207,36,Female,Bengaluru,Karnataka,India,2024-12-08,New,Electronics,Tablet,2417,1
+621,Erica,Ibarra,hclark@example.org,499-970-9104,20,Male,London,England,UK,2025-10-13,Regular,Books,Tablet,4597,1
+622,Thomas,Owens,xbrewer@example.com,9147345873,62,Male,London,England,UK,2026-08-02,Regular,Grocery,Desktop,3412,0
+623,Bradley,Torres,cody36@example.com,+1-374-814-0336,53,Male,Pune,Maharashtra,India,2023-09-17,Premium,Books,Tablet,3629,1
+624,Carolyn,Daugherty,daviesbridget@example.net,474-919-8204x81995,55,Female,Pune,Maharashtra,India,2023-10-18,Regular,Books,Desktop,3676,1
+625,Crystal,Lawrence,paulmarilyn@example.com,(647)209-4997x1741,29,Other,Delhi,Delhi,India,2024-06-24,Premium,Fashion,Desktop,332,1
+626,Amy,Price,gharrington@example.org,(757)787-8206x777,34,Male,London,England,UK,2025-08-17,Regular,Sports & Fitness,Mobile,2707,1
+627,Claire,Kelly,richardperez@example.net,+1-269-854-1240x3146,20,Male,Bengaluru,Karnataka,India,2025-05-31,Regular,Electronics,Tablet,2467,1
+628,Ashley,Miller,harrislisa@example.org,421-772-2894,53,Male,Toronto,Ontario,Canada,2023-08-10,Premium,Beauty & Personal Care,Tablet,1801,0
+629,Alyssa,Sweeney,curryrodney@example.org,(755)738-7247x51268,22,Female,London,England,UK,2024-12-25,New,Grocery,Mobile,2862,1
+630,Andrew,Harrison,zachary67@example.com,+1-264-347-1680x32115,60,Male,Hyderabad,Telangana,India,2025-08-24,Regular,Books,Tablet,4345,1
+631,Derek,Smith,christopher13@example.com,(922)327-3431x98483,59,Male,London,England,UK,2026-07-20,Regular,Toys & Games,Mobile,1997,0
+632,Chelsea,Green,joshuathompson@example.com,505.960.5044,42,Other,Pune,Maharashtra,India,2024-03-04,VIP,Grocery,Desktop,4425,1
+633,Erin,Goodwin,donald84@example.org,447.229.2497,51,Female,Mumbai,Maharashtra,India,2025-09-25,Regular,Toys & Games,Desktop,359,1
+634,Adam,Burgess,floresjason@example.com,(341)933-9186x30198,38,Female,Hyderabad,Telangana,India,2024-05-08,VIP,Home & Kitchen,Tablet,4368,1
+635,Timothy,Hensley,joshua39@example.com,001-855-508-9001x18230,31,Female,Delhi,Delhi,India,2025-08-06,Premium,Grocery,Mobile,1684,1
+636,Christine,Buchanan,gabriellucas@example.net,+1-759-307-4205x030,59,Female,New York,New York,USA,2023-10-29,New,Home & Kitchen,Mobile,3761,1
+637,Steven,Oneill,joshuawelch@example.net,971-290-4813,23,Male,Mumbai,Maharashtra,India,2024-02-01,New,Sports & Fitness,Tablet,577,1
+638,Erik,Wise,wanda12@example.org,+1-457-464-4287x98726,34,Male,Hyderabad,Telangana,India,2025-12-16,Regular,Grocery,Desktop,2591,1
+639,Nancy,Herrera,qbyrd@example.com,+1-418-831-9808,52,Male,Delhi,Delhi,India,2025-04-10,Premium,Fashion,Tablet,4797,1
+640,Ronald,Fisher,browncharles@example.org,220.752.9935,40,Other,Delhi,Delhi,India,2024-02-23,New,Sports & Fitness,Tablet,708,1
+641,Jessica,Delacruz,sparksjames@example.org,920-675-7526,42,Male,Chicago,Illinois,USA,2025-07-16,Regular,Toys & Games,Mobile,4370,1
+642,Kelsey,Schwartz,jamesnelson@example.com,906.617.8745x420,52,Male,New York,New York,USA,2024-03-06,Regular,Sports & Fitness,Tablet,3056,0
+643,Debbie,Lewis,yroberts@example.net,+1-341-524-5317x50917,53,Female,Mumbai,Maharashtra,India,2023-09-06,New,Electronics,Mobile,4691,1
+644,Paul,Campbell,crodriguez@example.net,7222040617,53,Other,London,England,UK,2026-03-18,Regular,Beauty & Personal Care,Mobile,3380,0
+645,Joy,Perez,frank68@example.com,280.488.7912,27,Male,London,England,UK,2026-06-02,New,Sports & Fitness,Mobile,938,1
+646,Cheryl,Chandler,mahoneypaul@example.com,551-949-8438,21,Female,Toronto,Ontario,Canada,2024-06-10,VIP,Toys & Games,Tablet,4502,1
+647,Jessica,Parker,michealyoung@example.net,434-405-8237,34,Male,Delhi,Delhi,India,2025-02-04,Premium,Toys & Games,Desktop,2925,1
+648,Yvonne,Miller,sfernandez@example.net,403-955-4111x29812,24,Male,Hyderabad,Telangana,India,2026-04-17,New,Books,Desktop,3980,1
+649,Angela,Wade,victoriashannon@example.net,(419)563-7765x6590,60,Male,Toronto,Ontario,Canada,2024-10-08,Regular,Beauty & Personal Care,Desktop,3508,1
+650,Troy,Carter,yellis@example.org,+1-325-557-2108x99194,33,Female,Pune,Maharashtra,India,2023-12-15,Premium,Grocery,Desktop,2944,1
