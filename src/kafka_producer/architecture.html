@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Real-Time Recommendation System Architecture</title>
+  <style>
+    :root {
+      --panel-bg: #FEFDEB;
+      --panel-border: #EADD9D;
+      --box-bg: #EAE9FF;
+      --box-border: #C8C5F0;
+      --text-color: #333;
+      --line-color: #555;
+      --header-bg: #34495E;
+      --page-bg: #F7F8FA;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--page-bg);
+      color: var(--text-color);
+    }
+    .header {
+      background-color: var(--header-bg);
+      color: white;
+      padding: 16px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: 600;
+    }
+    .instructions {
+      text-align: center;
+      padding: 12px;
+      font-size: 14px;
+      color: #555;
+      background-color: white;
+      border-bottom: 1px solid #e0e0e0;
+    }
+    .viewport {
+      width: 100%;
+      overflow-x: auto;
+      padding: 24px;
+    }
+    .diagram {
+      position: relative;
+      width: 2300px;
+      height: 900px;
+      margin: 0 auto;
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+    }
+    .layer {
+      position: absolute;
+      background-color: var(--panel-bg);
+      border: 1px solid var(--panel-border);
+      padding-top: 30px;
+    }
+    .layer-title {
+      position: absolute;
+      top: 8px;
+      left: 10px;
+      font-size: 11px;
+      font-weight: 600;
+      color: #6C6A4F;
+    }
+    .box {
+      position: absolute;
+      background-color: var(--box-bg);
+      border: 1px solid var(--box-border);
+      padding: 8px 10px;
+      font-size: 11px;
+      text-align: center;
+      line-height: 1.3;
+      cursor: default;
+      transition: all 0.2s ease-in-out;
+    }
+    .box:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      border-color: #A3A0D8;
+      z-index: 10;
+    }
+    .tooltip {
+      visibility: hidden;
+      opacity: 0;
+      position: absolute;
+      bottom: calc(100% + 10px);
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #2c3e50;
+      color: white;
+      padding: 10px 12px;
+      border-radius: 6px;
+      font-size: 12px;
+      line-height: 1.4;
+      text-align: left;
+      width: 250px;
+      z-index: 20;
+      transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+      pointer-events: none;
+    }
+    .box:hover .tooltip {
+      visibility: visible;
+      opacity: 1;
+    }
+    .connectors {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">Real-Time Recommendation System Architecture</div>
+  <div class="instructions">Hover over any component box to see a detailed description.</div>
+
+  <div class="viewport">
+    <div class="diagram">
+
+      <!-- ===== LAYERS ===== -->
+      <div class="layer" style="left: 20px; top: 20px; width: 170px; height: 320px;">
+        <div class="layer-title">Cross-Cutting Concerns</div>
+      </div>
+      <div class="layer" style="left: 20px; top: 350px; width: 170px; height: 170px;">
+        <div class="layer-title">Data Sources</div>
+      </div>
+      <div class="layer" style="left: 210px; top: 350px; width: 280px; height: 170px;">
+        <div class="layer-title">Ingestion Layer</div>
+      </div>
+      <div class="layer" style="left: 510px; top: 200px; width: 170px; height: 320px;">
+        <div class="layer-title">Spark Declarative Pipeline</div>
+      </div>
+      <div class="layer" style="left: 700px; top: 250px; width: 190px; height: 350px;">
+        <div class="layer-title">Bronze Layer - Raw Data</div>
+      </div>
+      <div class="layer" style="left: 910px; top: 150px; width: 850px; height: 500px;">
+        <div class="layer-title">Silver Layer - Cleansed & Enriched Data</div>
+      </div>
+      <div class="layer" style="left: 1780px; top: 300px; width: 320px; height: 350px;">
+        <div class="layer-title">Gold Layer - Recommendation Layer</div>
+      </div>
+      <div class="layer" style="left: 2120px; top: 20px; width: 160px; height: 860px;">
+        <div class="layer-title">Serving & Consumption Layer</div>
+      </div>
+
+      <!-- ===== SVG CONNECTORS ===== -->
+      <svg class="connectors">
+        <defs>
+          <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="#555" />
+          </marker>
+        </defs>
+        <!-- Data Sources to Ingestion -->
+        <path d="M 160 410 H 250" stroke="#555" stroke-width="1" fill="none" marker-end="url(#arrow)" />
+        <path d="M 160 460 C 200 460, 200 480, 260 480 H 300" stroke="#555" stroke-width="1" fill="none" marker-end="url(#arrow)" />
+        <path d="M 160 500 C 200 500, 200 520, 260 520 H 300" stroke="#555" stroke-width="1" fill="none" marker-end="url(#arrow)" />
+        <!-- Ingestion to Spark Pipeline -->
+        <path d="M 360 410 C 450 410, 450 250, 560 250" stroke="#555" stroke-width="1" fill="none" marker-end="url(#arrow)" />
+        <path d="M 440 500 H 480 C 500 500, 500 430, 560 430" stroke="#555" stroke-width="1" fill="none" marker-end="url(#arrow)" />
+        <path d="M 440 500 H 480 C 500 500, 500 480, 560 480" stroke="#555" stroke-width="1" fill="none" marker-end="url(#arrow)" />
+        <!-- Spark Pipeline to Bronze -->
+        <path d="M 650 250 C 680 250, 680 320, 750 320" stroke="#555" stroke-width="1" fill="none" marker-end="url(#arrow)" />
+        <path d="M 650 430 C 680 430, 680 430, 750 430" stroke="#555" stroke-width="1" fill="none" marker-end="url(#arrow)" />
+        <path d="M 650 480 C 680 480, 680 530, 750 530" stroke="#555" stroke-width="1" fill="none" marker-end="url(#arrow)" />
+        <!-- Bronze to Silver -->
+        <path d="M 850 320 C 880 320, 880 230, 960 230" stroke="#555" stroke-width="1" fill="none" marker-end="url(#arrow)" />
+        <path d="M 850 430 C 950 430, 1100 430, 1400 430 C 1450 430, 1450 460, 1500 460" stroke="#555" stroke-width="1" fill="none" marker-end="url(#arrow)" />
+        <path d="M 850 530 C 1050 530, 1250 530, 1450 530 C 1480 530, 1480 480, 1500 480" stroke="#555" stroke-width="1" fill="none" marker-end="url(#arrow)" />
+        <!-- Silver internal flow -->
+        <path d="M 1070 230 H 1120" stroke="#555" stroke-width="1" fill="none" marker-end="url(#arrow)" />
+        <path d="M 1230 230 C 1300 230, 1300 460, 1500 460" stroke="#555" stroke-width="1" fill="none" marker-end="url(#arrow)" />
+        <path d="M 1610 470 H 1660" stroke="#555" stroke-width="1" fill="none" marker-end="url(#arrow)" />
+        <path d="M 1660 470 H 1670" stroke="#555" stroke-width="1" fill="none" marker-end="url(#arrow)" />
+        <!-- Silver to Gold -->
+        <path d="M 1720 470 C 1750 470, 1750 470, 1830 470" stroke="#555" stroke-width="1" fill="none" marker-end="url(#arrow)" />
+        <path d="M 1720 470 C 1750 470, 1750 380, 1830 380" stroke="#555" stroke-width="1" fill="none" marker-end="url(#arrow)" />
+        <!-- Gold internal flow -->
+        <path d="M 1940 470 H 1980" stroke="#555" stroke-width="1" fill="none" marker-end="url(#arrow)" />
+        <path d="M 2090 470 H 2130" stroke="#555" stroke-width="1" fill="none" marker-end="url(#arrow)" />
+        <!-- Gold to Serving -->
+        <path d="M 1940 380 C 2050 380, 2050 380, 2170 380" stroke="#555" stroke-width="1" fill="none" marker-end="url(#arrow)" />
+        <path d="M 2090 470 C 2100 470, 2100 550, 2170 550" stroke="#555" stroke-width="1" fill="none" marker-end="url(#arrow)" />
+        <!-- Serving internal flow -->
+        <path d="M 2170 380 V 330 H 2200" stroke="#555" stroke-width="1" fill="none" marker-end="url(#arrow)" />
+        <path d="M 2280 550 H 2300 C 2350 550, 2350 550, 2350 550" stroke="#555" stroke-width="1" fill="none" marker-end="url(#arrow)"/>
+        <!-- Cross-Cutting to Diagram -->
+        <path d="M 120 70 C 250 70, 500 70, 750 280" stroke="#aaa" stroke-width="1" fill="none" />
+        <path d="M 120 140 C 400 140, 800 140, 1175 180 C 1400 210, 1800 240, 2170 300" stroke="#aaa" stroke-width="1" fill="none" />
+        <path d="M 120 220 C 300 220, 500 220, 750 280" stroke="#aaa" stroke-width="1" fill="none" />
+        <path d="M 120 280 C 300 280, 450 280, 560 300" stroke="#aaa" stroke-width="1" fill="none" />
+      </svg>
+
+      <!-- ===== COMPONENT BOXES ===== -->
+      <!-- Cross-Cutting Concerns -->
+      <div class="box" style="left: 40px; top: 50px; width: 130px;">Metadata / Catalog<div class="tooltip">Central repository for managing data assets, schemas, ownership, and discovery across all layers.</div></div>
+      <div class="box" style="left: 40px; top: 120px; width: 130px;">Monitoring & Alerting<div class="tooltip">Tracks pipeline health, data freshness, latency, and quality metrics, triggering alerts on anomalies.</div></div>
+      <div class="box" style="left: 40px; top: 190px; width: 130px;">Data Lineage & Audit<div class="tooltip">Provides end-to-end visibility into data origins, transformations, and usage for governance and debugging.</div></div>
+      <div class="box" style="left: 40px; top: 260px; width: 130px;">Checkpointing / Fault Tolerance<div class="tooltip">Ensures Spark Streaming jobs can recover from failures with exactly-once processing guarantees.</div></div>
+
+      <!-- Data Sources -->
+      <div class="box" style="left: 30px; top: 380px; width: 140px; height: 50px;">Web / Mobile App Clickstream Events<div class="tooltip">Real-time user interaction data such as page views, product clicks, add-to-cart actions, and purchases.</div></div>
+      <div class="box" style="left: 40px; top: 440px; width: 120px;">Product Master Data<div class="tooltip">Daily batch feed containing all product attributes like category, brand, price, and description.</div></div>
+      <div class="box" style="left: 40px; top: 480px; width: 120px;">Customer Master Data<div class="tooltip">Daily batch feed with customer profile information, demographics, and segmentation details.</div></div>
+
+      <!-- Ingestion Layer -->
+      <div class="box" style="left: 220px; top: 395px; width: 100px;">Kafka Producers<div class="tooltip">Services within the web/mobile backend that publish event data to Kafka topics.</div></div>
+      <div class="box" style="left: 350px; top: 390px; width: 130px; height: 40px;">Kafka Topics (clicks, views, etc.)<div class="tooltip">Durable, ordered logs of events that act as a buffer between producers and consumers.</div></div>
+      <div class="box" style="left: 300px; top: 480px; width: 140px; height: 50px;">Batch Ingestion Jobs (Daily Product & Customer Load)<div class="tooltip">Scheduled jobs (e.g., using Airflow, Spark) that load dimension data into the Bronze layer.</div></div>
+
+      <!-- Spark Declarative Pipeline -->
+      <div class="box" style="left: 540px; top: 230px; width: 110px;">Streaming Read from Kafka<div class="tooltip">A Spark Streaming job that continuously consumes events from Kafka topics.</div></div>
+      <div class="box" style="left: 540px; top: 410px; width: 110px;">Batch Read for Customer Dimension<div class="tooltip">Reads the raw customer dimension table for use in enrichment steps.</div></div>
+      <div class="box" style="left: 540px; top: 460px; width: 110px;">Batch Read for Product Dimension<div class="tooltip">Reads the raw product dimension table for use in enrichment steps.</div></div>
+      
+      <!-- Bronze Layer -->
+      <div class="box" style="left: 720px; top: 280px; width: 150px; height: 70px;">Raw Clickstream Events Delta Table (Append-only, schema evolution, audit fields)<div class="tooltip">Stores raw, unaltered event data from Kafka, preserving the full history for replayability and auditing.</div></div>
+      <div class="box" style="left: 720px; top: 400px; width: 150px; height: 60px;">Raw Customer Dimension Delta Table (Daily snapshot)<div class="tooltip">A daily snapshot of the customer master data, stored in Delta Lake format.</div></div>
+      <div class="box" style="left: 720px; top: 500px; width: 150px; height: 60px;">Raw Product Dimension Delta Table (Daily snapshot)<div class="tooltip">A daily snapshot of the product master data, stored in Delta Lake format.</div></div>
+
+      <!-- Silver Layer -->
+      <div class="box" style="left: 950px; top: 200px; width: 130px; height: 60px;">Parse / Extract Event Fields (user_id, session_id, event_type, etc.)<div class="tooltip">Transforms raw JSON/Avro event strings into structured columns for easier processing.</div></div>
+      <div class="box" style="left: 1110px; top: 200px; width: 130px; height: 60px;">Data Quality Checks (deduplication, null handling, late events)<div class="tooltip">Applies rules to filter out bad data, handle duplicates, and manage out-of-order events.</div></div>
+      <div class="box" style="left: 1500px; top: 450px; width: 110px;">Join with Product Dimension<div class="tooltip">Enriches event data with product attributes like category and brand by joining with the product dimension table.</div></div>
+      <div class="box" style="left: 1550px; top: 380px; width: 110px;">Join with Customer Dimension<div class="tooltip">Enriches event data with customer attributes like segment and location by joining with the customer dimension table.</div></div>
+      <div class="box" style="left: 1550px; top: 520px; width: 110px;">Behavioral Feature Engineering<div class="tooltip">Creates high-level features from user behavior, such as session duration or purchase frequency.</div></div>
+      <div class="box" style="left: 1600px; top: 230px; width: 150px; height: 90px;">Derived Features Delta Tables (Most Viewed Category, Favorite Brand, Price Preference)<div class="tooltip">Aggregated tables storing user-level features, which are the primary input for the recommendation models.</div></div>
+      
+      <!-- Gold Layer -->
+      <div class="box" style="left: 1820px; top: 360px; width: 130px; height: 40px;">Business Metrics (CTR, Conversion, etc.)<div class="tooltip">Aggregated business intelligence tables for monitoring recommendation performance and user engagement.</div></div>
+      <div class="box" style="left: 1820px; top: 450px; width: 130px; height: 40px;">Recommendation Feature Store / Serving Table<div class="tooltip">A low-latency table optimized for serving features to the real-time recommendation logic.</div></div>
+      <div class="box" style="left: 1970px; top: 450px; width: 130px; height: 50px;">Recommendation Logic / Models (rule-based, collaborative, ranking)<div class="tooltip">Applies algorithms to generate recommendation candidates and rank them for each user or session.</div></div>
+      <div class="box" style="left: 1970px; top: 550px; width: 130px; height: 50px;">Top-N Recommendations per User / Session<div class="tooltip">The final output: a list of the top N recommended product IDs for each user or active session.</div></div>
+
+      <!-- Serving & Consumption Layer -->
+      <div class="box" style="left: 2130px; top: 310px; width: 140px;">Campaign / Notification Systems<div class="tooltip">Uses recommendation outputs to power personalized email, SMS, or push notification campaigns.</div></div>
+      <div class="box" style="left: 2130px; top: 370px; width: 140px;">BI Dashboard / Monitoring<div class="tooltip">Visualizes business metrics and recommendation performance for analysis by business stakeholders.</div></div>
+      <div class="box" style="left: 2130px; top: 530px; width: 140px;">Recommendation API / Microservice<div class="tooltip">A low-latency API endpoint that serves personalized recommendations to front-end applications.</div></div>
+      <div class="box" style="left: 2130px; top: 600px; width: 140px;">Website / Mobile App Personalization<div class="tooltip">The end-user application that displays the recommendations in 'Recommended for You' carousels and other widgets.</div></div>
+      
+    </div>
+  </div>
+
+</body>
+</html>

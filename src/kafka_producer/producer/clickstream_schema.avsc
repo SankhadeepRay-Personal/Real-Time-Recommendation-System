@@ -1,0 +1,20 @@
+{
+    "type": "record",
+    "name": "ClickstreamEvent",
+    "namespace": "com.clickstream.avro",
+    "fields": [
+        {"name": "eventId", "type": ["null", "string"], "default": null},
+        {"name": "sessionId", "type": ["null", "string"], "default": null},
+        {"name": "userId", "type": ["null", "long"], "default": null},
+        {"name": "productId", "type": ["null", "long"], "default": null},
+        {"name": "eventType", "type": ["null", "string"], "default": null},
+        {"name": "deviceType", "type": ["null", "string"], "default": null},
+        {"name": "eventSequence", "type": ["null", "long"], "default": null},
+        {"name": "searchQuery", "type": ["null", "string"], "default": null},
+        {"name": "quantity", "type": ["null", "long"], "default": null},
+        {"name": "rating", "type": ["null", "float"], "default": null},
+        {"name": "totalAmount", "type": ["null", "float"], "default": null},
+        {"name": "paymentMode", "type": ["null", "string"], "default": null},
+        {"name": "event_timestamp", "type": ["null", "string"], "default": null}
+    ]
+}
